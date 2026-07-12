@@ -9,8 +9,9 @@
 - **Variações encontradas:** a mapear durante a pesquisa
 - **Residência e domicílio informados:** Belém/PA
 - **Condição profissional informada:** servidora pública estadual
-- **Atuação atual:** a confirmar
-- **Status dos dados acima:** fornecidos pela equipe; pendentes de validação em fontes primárias antes de publicação
+- **Último cargo informado em 2026:** secretária de Estado na SEAC/PA
+- **Atuação atual:** a confirmar em fontes públicas
+- **Status dos dados acima:** fornecidos pela equipe; pendentes de validação em fontes primárias antes de publicação factual
 
 ## 2. Resumo factual preliminar
 
@@ -49,7 +50,7 @@ Essas informações constituem hipóteses iniciais de pesquisa e deverão ser de
 | Ano | Partido/coligação | Cargo ou situação | Resultado/status | Evidência | Observações |
 |---|---|---|---|---|---|
 | A pesquisar | A confirmar | Prefeita de Mocajuba | Mandato a validar | Informação fornecida pela equipe | Localizar registros eleitorais e atos de posse |
-| 2026 | A confirmar | Pré-candidatura | A confirmar | Informação fornecida pela equipe | Há divergência entre deputada estadual e deputada federal |
+| 2026 | Não informado | Pretensão de disputar vaga de deputada federal | Sem candidatura oficial ou anúncio público oficial informado | Informação fornecida pela equipe | Uso interno; não publicar automaticamente |
 
 ## 8. Projetos, políticas e realizações
 
@@ -75,27 +76,45 @@ Cada item deverá ser vinculado a período, papel exercido, evidência e resulta
 
 | Plataforma | Identificador/URL | Evidência de autenticidade | Situação | Observações |
 |---|---|---|---|---|
-| A pesquisar |  |  |  |  |
+| Instagram | https://www.instagram.com/eliethdefatima/ | Informado pela equipe como oficial | Ativo, a verificar | Catalogar publicações, histórico e identidade pública |
+| Facebook | https://www.facebook.com/Eliethdefatimabraga | Informado pela equipe como oficial | Ativo, a verificar | Identificar página, histórico, conteúdos e canais relacionados |
 
-## 12. Temas sensíveis e divergências
+## 12. Temas pessoais autorizados para pesquisa
+
+- cidade ou local de nascimento;
+- idade ou data de nascimento;
+- família;
+- religião;
+- história pessoal;
+- origem familiar;
+- vida acadêmica;
+- hobbies.
+
+A autorização temática não significa publicação automática. Informações deverão ser relevantes, respeitosas, seguras e adequadamente validadas.
+
+## 13. Temas sensíveis e divergências
 
 Não reproduzir detalhes aqui sem fonte, contexto e necessidade. Vincular ao documento `04-pendencias-e-divergencias.md` e ao futuro relatório de riscos.
 
-Divergência inicial registrada:
+Situação eleitoral a acompanhar:
 
-- cargo pretendido nas eleições de 2026: deputada estadual ou deputada federal.
+- pretensão informada de disputar vaga de deputada federal;
+- ausência de anúncio público oficial informado;
+- ausência de candidatura oficial informada;
+- partido ainda não informado ao projeto;
+- necessidade de revisão eleitoral antes de qualquer publicação sobre a pretensão.
 
-## 13. Lacunas para validação direta
+## 14. Lacunas para pesquisa e validação
 
-- autorização formal ou operacional para o projeto;
-- responsável por aprovações;
-- cargo pretendido em 2026;
-- partido político atual;
-- biografia pessoal autorizada;
 - formação e títulos;
+- local e data de nascimento;
 - cronologia completa de funções;
+- atos de nomeação e exoneração;
+- histórico eleitoral e partidário;
 - autoria e participação em projetos;
-- canais oficiais atuais;
+- entrevistas e publicações relevantes;
+- canais oficiais adicionais e perfis antigos;
 - fotografias e direitos de uso;
-- posicionamento e finalidade da página;
-- informações que a própria pessoa não deseja tornar públicas.
+- acervo privado não disponível nas redes;
+- evidências públicas sobre a pretensão política de 2026;
+- situação oficial após convenções e eventuais registros.
