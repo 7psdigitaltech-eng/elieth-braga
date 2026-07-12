@@ -56,3 +56,20 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 
 - **Decisão:** A finalidade pessoal/institucional da página e eventual finalidade pré-eleitoral ou eleitoral deverão ser tratadas separadamente e submetidas a revisão específica.
 - **Motivo:** Evitar alterações de finalidade e comunicação sem análise de conformidade.
+
+### D011 — Identidade-base informada pela equipe
+
+- **Decisão:** Usar `Elieth de Fátima da Silva Braga` como identidade-base para as consultas da Fase 1.
+- **Nome público:** Elieth Braga.
+- **Condição:** A grafia e as variações deverão ser confirmadas em fontes primárias e documentos oficiais.
+
+### D012 — Dados fornecidos não equivalem a fatos publicados
+
+- **Decisão:** Informações biográficas e profissionais fornecidas pela equipe serão registradas como hipóteses iniciais, pendentes de validação documental.
+- **Motivo:** Permitir que a pesquisa seja orientada pelo conhecimento da equipe sem comprometer a integridade do dossiê factual.
+
+### D013 — Divergência sobre cargo pretendido
+
+- **Decisão:** Não assumir o cargo eletivo pretendido em 2026 até confirmação direta.
+- **Divergência:** Há registros nas conversas mencionando deputada federal e deputada estadual.
+- **Consequência:** Nenhum conteúdo público deverá citar o cargo antes da resolução e validação dessa informação.
