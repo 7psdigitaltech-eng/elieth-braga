@@ -2,10 +2,10 @@
 
 ## Status atual
 
-- **Fase:** Fase 0 — Governança e planejamento
-- **Situação:** Briefing inicial registrado; faltam confirmações finais de governança e posicionamento
+- **Fase concluída:** Fase 0 — Governança e planejamento
+- **Fase atual:** Fase 1 — Varredura pública e inventário de fontes
+- **Situação:** Briefing consolidado, governança mínima definida e pesquisa autorizada
 - **Última atualização:** 2026-07-12
-- **Próxima fase:** Fase 1 — Varredura pública e inventário de fontes
 
 ## O que já foi feito
 
@@ -13,44 +13,56 @@
 - Conexão do ChatGPT com o GitHub validada.
 - Branch `main` inicializada.
 - Estrutura documental inicial criada.
-- Objetivo do projeto definido: página web pessoal de Elieth Braga.
+- Objetivo definido: página web pessoal de Elieth Braga.
 - Visão ampliada definida: ativo digital próprio, independente das redes sociais.
-- Macroetapas do projeto expandidas para oito fases.
-- Plano mestre criado.
-- Protocolo de pesquisa e verificação criado.
-- Inventário inicial de fontes criado.
-- Modelos de linha do tempo, perfil consolidado e pendências criados.
-- Cuidados de privacidade, direitos de imagem, rastreabilidade e conformidade incorporados.
+- Macroetapas expandidas para oito fases.
+- Plano mestre e protocolo de pesquisa criados.
+- Inventário inicial, linha do tempo, perfil consolidado e controle de pendências estruturados.
 - Nome completo informado: Elieth de Fátima da Silva Braga.
-- Histórico público preliminar fornecido pela equipe e registrado como pendente de validação.
-- Briefing oficial criado em `docs/00-briefing-inicial.md`.
+- Autorização de Elieth para pesquisa e criação confirmada pela equipe.
+- Responsável operacional inicial definido: Eduardo / 7PS Digital Tech.
+- Público, finalidade, ações esperadas e formato inicial definidos.
+- Canais oficiais iniciais registrados.
+- Temas pessoais permitidos e regras de privacidade registrados.
+- Cargo pretendido corrigido para deputada federal.
+- Condição da pretensão registrada: sem candidatura oficial e sem anúncio público oficial.
+- Diretrizes preliminares de comunicação pré-eleitoral criadas em `docs/02-diretrizes-pre-eleitorais.md`.
 
-## Fase em andamento — Governança
+## Diretriz do MVP
 
-### Pendências críticas
+A primeira versão será uma apresentação predominantemente estática, combinando:
 
-- confirmar se a pré-candidatura de 2026 é a deputada estadual ou deputada federal;
-- confirmar autorização de Elieth Braga para o projeto e a pesquisa;
-- definir quem aprova fatos, textos, imagens e publicação;
-- definir a finalidade da primeira versão: pessoal, institucional, política ou pré-eleitoral;
-- definir público prioritário e ação principal esperada do visitante;
-- identificar canais oficiais atuais;
-- registrar limites de privacidade e temas que exigem aprovação especial;
-- identificar responsável por atualizações futuras;
-- informar eventual marco ou data desejada para publicação.
+- biografia;
+- trajetória profissional e administrativa;
+- trajetória política histórica;
+- redes e conteúdos oficiais.
 
-## Informações que não bloqueiam a pesquisa
+A primeira versão não será apresentada como site oficial de campanha. A pretensão de disputar vaga de deputada federal permanecerá fora do conteúdo público inicial, salvo decisão expressa de Elieth e revisão jurídica eleitoral.
 
-- stack técnica;
-- layout e identidade visual;
-- subdomínio;
-- detalhes da VPS;
-- analytics, formulários e integrações;
-- domínio definitivo.
+## Público em camadas
 
-## Próxima execução recomendada
+### Primário
 
-Após resposta às pendências críticas, iniciar a varredura profunda em blocos:
+- população do Pará;
+- público geral que pesquisar por Elieth Braga;
+- pessoas alcançadas por seus canais digitais.
+
+### Secundário
+
+- imprensa;
+- lideranças políticas, comunitárias e institucionais;
+- servidores públicos;
+- profissionais da educação;
+- futuros interessados em sua atuação política, quando autorizada.
+
+## Canais oficiais iniciais
+
+- Instagram: https://www.instagram.com/eliethdefatima/
+- Facebook: https://www.facebook.com/Eliethdefatimabraga
+
+## Execução atual — Fase 1
+
+A varredura será realizada em blocos:
 
 1. identidade e biografia;
 2. formação e trajetória profissional;
@@ -61,7 +73,19 @@ Após resposta às pendências críticas, iniciar a varredura profunda em blocos
 7. entrevistas, mídia e redes sociais;
 8. contratos, atos e documentos públicos;
 9. controle externo, processos e temas sensíveis;
-10. imagens, vídeos e direitos de uso.
+10. imagens, vídeos e direitos de uso;
+11. conformidade da presença digital no período pré-eleitoral.
+
+## Prioridades imediatas
+
+- validar nome e variações em fontes primárias;
+- localizar atos de nomeação e exoneração;
+- confirmar períodos em Ananindeua, Mocajuba, SEDUC/PA e SEAC/PA;
+- catalogar Instagram e Facebook;
+- verificar menções públicas à pretensão de candidatura a deputada federal;
+- mapear filiação e histórico eleitoral em fontes oficiais;
+- iniciar a linha do tempo factual;
+- registrar cada evidência no inventário de fontes.
 
 ## Critério para avançar à estratégia da página
 
@@ -74,4 +98,4 @@ A Fase 2 deverá entregar, no mínimo:
 - lacunas e divergências explícitas;
 - canais oficiais identificados;
 - material visual com situação de direitos conhecida;
-- revisão dos riscos editoriais e jurídicos.
+- revisão dos riscos editoriais, jurídicos e eleitorais.
