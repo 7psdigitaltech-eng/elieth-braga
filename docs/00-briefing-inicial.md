@@ -2,7 +2,7 @@
 
 ## 1. Identificação fornecida pela equipe
 
-> As informações desta seção foram fornecidas diretamente pela equipe do projeto em 2026-07-12. Elas orientam a pesquisa, mas permanecem pendentes de validação em fontes primárias antes de qualquer publicação.
+> As informações desta seção foram fornecidas diretamente pela equipe do projeto em 2026-07-12. Elas orientam a pesquisa, mas permanecem pendentes de validação em fontes primárias antes de qualquer publicação factual.
 
 - **Nome civil informado:** Elieth de Fátima da Silva Braga
 - **Nome público:** Elieth Braga
@@ -13,75 +13,147 @@
   - prefeita de Mocajuba/PA;
   - secretária de Estado de Educação do Pará;
   - titular da Secretaria Estratégica de Articulação da Cidadania — SEAC/PA.
-- **Situação política informada:** exoneração do último cargo de secretária de Estado para atuar como pré-candidata nas eleições de 2026.
+- **Último cargo público informado em 2026:** secretária de Estado na SEAC/PA.
+- **Pretensão política informada:** disputar uma vaga de deputada federal nas Eleições 2026.
+- **Situação da pretensão:** não há, segundo a equipe, candidatura oficial registrada nem anúncio público oficial feito por Elieth Braga.
 
-## 2. Divergência a resolver
+## 2. Autorização e governança
 
-Há duas informações diferentes registradas nas conversas do projeto:
+- Elieth Braga está ciente e autoriza a pesquisa pública e a criação da página.
+- O projeto poderá funcionar como porta de entrada para futuros trabalhos e serviços de tecnologia e inteligência artificial.
+- **Responsável operacional inicial:** Eduardo / 7PS Digital Tech.
+- Não há, neste momento, outra pessoa integrada à operação cotidiana do projeto.
+- Todo conteúdo poderá ser validado por Elieth para permanência, correção ou alteração.
 
-- pré-candidatura a deputada federal;
-- pré-candidatura a deputada estadual.
+### Política de aprovação
 
-O cargo pretendido deverá ser confirmado diretamente pela equipe e, quando houver documentação ou anúncio público confiável, validado por fonte rastreável.
+Não haverá obrigação de solicitar aprovação prévia para cada ajuste operacional. A aprovação será proporcional ao risco:
+
+- fatos públicos objetivos poderão avançar após verificação documental e revisão editorial;
+- a primeira versão completa deverá ser submetida à avaliação de Elieth antes do lançamento público;
+- conteúdo pessoal, familiar, religioso, controverso, político ainda não divulgado ou relacionado à pretensão eleitoral deverá ser validado antes da publicação;
+- conteúdo de natureza eleitoral deverá receber, além da validação de Elieth, revisão jurídica eleitoral adequada.
 
 ## 3. Natureza desejada do produto
 
-Criar um ativo digital próprio, inicialmente independente das redes sociais, que possa reunir:
+Criar um **ativo digital próprio**, independente das redes sociais, que funcione inicialmente como apresentação pessoal, biográfica e institucional e possa evoluir para reunir:
 
-- apresentação pessoal;
 - biografia e trajetória verificadas;
 - atuação e experiência pública;
 - projetos, realizações e causas;
 - imprensa, entrevistas e conteúdos;
-- agenda, quando aprovada;
-- canais oficiais e contato;
-- possibilidade de evolução conforme a estratégia política e de comunicação.
+- canais oficiais;
+- futura agenda;
+- futura atuação política;
+- canais de relacionamento;
+- novas aplicações digitais e serviços de tecnologia e IA.
 
-## 4. Informações necessárias para concluir a Fase 0
+## 4. Posicionamento da primeira versão
 
-### 4.1 Governança e autorização
+A primeira versão será uma combinação controlada de:
 
-1. Elieth Braga está ciente e autoriza a criação da página e a pesquisa pública?
-2. Quem será a pessoa responsável pela aprovação final de fatos, textos, imagens e publicação?
-3. Há assessor(a) de comunicação, equipe política ou advogado(a) eleitoral que participará das revisões?
+- apresentação pessoal e biográfica;
+- trajetória institucional e administrativa;
+- trajetória política histórica;
+- conteúdos e redes oficiais.
 
-### 4.2 Posicionamento inicial
+A página não nascerá como site oficial de campanha. A pretensão de disputar uma vaga de deputada federal será tratada internamente durante a pesquisa e somente será publicada quando Elieth decidir fazer o anúncio e houver validação jurídica da forma e do momento.
 
-4. A primeira versão será prioritariamente:
-   - pessoal e biográfica;
-   - institucional e de trajetória pública;
-   - política e de posicionamento;
-   - pré-eleitoral;
-   - uma combinação controlada dessas finalidades?
-5. Qual é o público prioritário da primeira versão?
-6. Qual ação principal a pessoa visitante deverá realizar: conhecer a trajetória, acompanhar conteúdos, acessar redes, entrar em contato, apoiar uma causa ou outra ação?
+A trajetória política já exercida poderá ser apresentada, desde que factual, documentada e sem linguagem eleitoral indevida.
 
-### 4.3 Situação política
+## 5. Público prioritário definido
 
-7. Confirmar se a pré-candidatura é a deputada estadual ou deputada federal.
-8. Informar partido político atual e eventual número, somente quando oficialmente definidos e autorizados.
-9. Informar se já existe anúncio público oficial da pré-candidatura e onde ele foi publicado.
+Como todos os grupos indicados são relevantes, o projeto adotará uma arquitetura de públicos em camadas.
 
-### 4.4 Canais e materiais disponíveis
+### Público primário
 
-10. Informar os links dos canais reconhecidos como oficiais: Instagram, Facebook, YouTube, TikTok, X, LinkedIn, WhatsApp, site antigo ou outros.
-11. Indicar se existe acervo próprio de fotografias, vídeos, currículo, biografias anteriores, discursos, releases, certificados e documentos.
-12. Indicar quem possui ou pode conceder autorização de uso desses materiais.
+- população do Pará que pesquisar por Elieth Braga;
+- cidadãos interessados em conhecer sua história, experiência e trajetória pública;
+- pessoas alcançadas por seus canais digitais atuais.
 
-### 4.5 Limites de privacidade e conteúdo
+### Públicos secundários
 
-13. Informar quais assuntos pessoais podem ser apresentados e quais devem ficar fora da página.
-14. Informar se família, religião, vida pessoal, origem, formação e história pessoal poderão ser abordadas.
-15. Definir temas sensíveis que deverão passar obrigatoriamente por aprovação especial.
+- imprensa e formadores de opinião;
+- lideranças políticas, comunitárias e institucionais;
+- servidores públicos;
+- profissionais da educação;
+- pessoas que já acompanharam suas gestões;
+- futuros apoiadores e interessados em sua atuação política, quando essa comunicação estiver autorizada.
 
-### 4.6 Operação
+### Consequência editorial
 
-16. Quem será responsável por enviar atualizações futuras de agenda, projetos, notícias e correções?
-17. Há uma data desejada para a primeira publicação ou algum marco político/comunicacional relevante?
+A linguagem deverá ser acessível ao público geral, mas manter organização, fontes e profundidade suficientes para imprensa e públicos institucionais.
 
-## 5. Informações que não bloqueiam o início da pesquisa
+## 6. Ações principais esperadas do visitante
 
-As seguintes decisões podem esperar as fases posteriores:
+Na primeira versão, a pessoa visitante deverá poder:
+
+1. conhecer a história e a trajetória de Elieth Braga;
+2. acessar e acompanhar suas redes e conteúdos oficiais;
+3. compreender seus cargos, experiências e áreas de atuação.
+
+Em evoluções futuras, a página poderá permitir:
+
+- conhecer projetos e realizações consolidadas;
+- acompanhar agenda e conteúdos;
+- acompanhar sua atuação política futura;
+- entrar em contato com a equipe;
+- acessar outras iniciativas digitais autorizadas.
+
+## 7. Situação política e eleitoral
+
+- **Cargo pretendido informado:** deputada federal.
+- **Partido atual:** não informado para o projeto neste momento.
+- **Número eleitoral:** não definido ou não autorizado para uso.
+- **Anúncio público oficial:** inexistente segundo a equipe.
+- **Candidatura oficial:** não registrada segundo a informação disponível.
+
+A pesquisa deverá verificar o que pode ser comunicado antes da escolha partidária, do registro e do início da propaganda eleitoral. As diretrizes preliminares estão em `docs/02-diretrizes-pre-eleitorais.md`.
+
+## 8. Canais oficiais informados
+
+- **Instagram:** https://www.instagram.com/eliethdefatima/
+- **Facebook:** https://www.facebook.com/Eliethdefatimabraga
+
+A autenticidade, histórico, nomes de usuário, páginas antigas, perfis relacionados e eventuais canais adicionais serão verificados na Fase 1.
+
+## 9. Acervo disponível
+
+O acervo inicial conhecido está concentrado nas publicações ativas do Instagram e do Facebook.
+
+A Fase 1 deverá:
+
+- catalogar publicações relevantes;
+- identificar fotografias, vídeos, eventos, cargos e marcos históricos;
+- registrar autoria e possibilidade de reutilização;
+- localizar materiais externos e documentos públicos;
+- mapear lacunas que dependem de acervo privado de Elieth.
+
+## 10. Limites pessoais e de privacidade
+
+Os seguintes temas poderão ser pesquisados e considerados para a página, sempre com relevância, respeito e validação adequada:
+
+- cidade ou local de nascimento;
+- idade ou data de nascimento;
+- família;
+- religião;
+- história pessoal;
+- origem familiar;
+- vida acadêmica;
+- hobbies.
+
+A permissão temática não significa publicação automática. Dados desnecessários, endereços, documentos, telefones particulares, rotinas de segurança e informações de familiares sem relevância pública permanecerão protegidos.
+
+## 11. Operação e atualização
+
+- **Responsável inicial por pesquisa, tecnologia, organização e atualizações:** Eduardo / 7PS Digital Tech.
+- **Formato inicial:** apresentação predominantemente estática.
+- **Prazo desejado:** lançamento o mais breve possível, sem comprometer verificação, qualidade e conformidade.
+- A página deverá ser projetada para permitir expansão futura sem reconstrução integral.
+
+## 12. Informações que não bloqueiam a pesquisa
+
+As seguintes decisões serão tomadas em fases posteriores:
 
 - stack de desenvolvimento;
 - framework ou CMS;
@@ -93,16 +165,31 @@ As seguintes decisões podem esperar as fases posteriores:
 - formulários e integrações;
 - domínio próprio definitivo.
 
-## 6. Critério de encerramento da Fase 0
+## 13. Encerramento da Fase 0
 
-A Fase 0 estará concluída quando houver:
+A Fase 0 — Governança e Planejamento está considerada **concluída**, pois foram definidos:
 
-- confirmação do cargo político pretendido;
-- autorização e responsável por aprovação definidos;
-- finalidade inicial da página definida;
-- público e objetivo principal definidos;
-- canais oficiais informados;
-- limites de privacidade registrados;
-- responsável por atualizações identificado.
+- identidade-base;
+- autorização para pesquisa e criação;
+- responsável operacional;
+- finalidade inicial;
+- público em camadas;
+- ações esperadas do visitante;
+- canais oficiais iniciais;
+- temas pessoais permitidos;
+- formato inicial e urgência;
+- cargo político pretendido e sua condição não oficial;
+- política de aprovação proporcional ao risco.
 
-Com esses itens definidos, a Fase 1 poderá iniciar mesmo que ainda existam lacunas biográficas, pois essas lacunas serão objeto da própria varredura pública.
+## 14. Próximo marco
+
+Iniciar a **Fase 1 — Varredura pública e inventário de fontes**, com prioridade para:
+
+1. identidade e biografia;
+2. cronologia completa de cargos;
+3. atos de nomeação e exoneração;
+4. gestão municipal e estadual;
+5. redes sociais e presença digital;
+6. pretensão eleitoral e limites de comunicação;
+7. documentos, contratos, notícias e entrevistas;
+8. imagens, vídeos e direitos de uso.
