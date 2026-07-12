@@ -3,7 +3,7 @@
 ## Status atual
 
 - **Fase:** Fase 0 — Governança e planejamento
-- **Situação:** Escopo macro definido e estrutura da Fase 1 preparada
+- **Situação:** Briefing inicial registrado; faltam confirmações finais de governança e posicionamento
 - **Última atualização:** 2026-07-12
 - **Próxima fase:** Fase 1 — Varredura pública e inventário de fontes
 
@@ -14,28 +14,43 @@
 - Branch `main` inicializada.
 - Estrutura documental inicial criada.
 - Objetivo do projeto definido: página web pessoal de Elieth Braga.
+- Visão ampliada definida: ativo digital próprio, independente das redes sociais.
 - Macroetapas do projeto expandidas para oito fases.
 - Plano mestre criado.
 - Protocolo de pesquisa e verificação criado.
 - Inventário inicial de fontes criado.
 - Modelos de linha do tempo, perfil consolidado e pendências criados.
 - Cuidados de privacidade, direitos de imagem, rastreabilidade e conformidade incorporados.
+- Nome completo informado: Elieth de Fátima da Silva Braga.
+- Histórico público preliminar fornecido pela equipe e registrado como pendente de validação.
+- Briefing oficial criado em `docs/00-briefing-inicial.md`.
 
 ## Fase em andamento — Governança
 
 ### Pendências críticas
 
-- confirmar nome civil completo e variações públicas;
-- confirmar quem aprova fatos, textos, imagens e publicação;
-- confirmar a autorização e o vínculo da equipe com Elieth Braga;
+- confirmar se a pré-candidatura de 2026 é a deputada estadual ou deputada federal;
+- confirmar autorização de Elieth Braga para o projeto e a pesquisa;
+- definir quem aprova fatos, textos, imagens e publicação;
 - definir a finalidade da primeira versão: pessoal, institucional, política ou pré-eleitoral;
-- definir informações que não devem ser coletadas ou publicadas;
+- definir público prioritário e ação principal esperada do visitante;
 - identificar canais oficiais atuais;
-- definir processo de validação direta de dados biográficos.
+- registrar limites de privacidade e temas que exigem aprovação especial;
+- identificar responsável por atualizações futuras;
+- informar eventual marco ou data desejada para publicação.
+
+## Informações que não bloqueiam a pesquisa
+
+- stack técnica;
+- layout e identidade visual;
+- subdomínio;
+- detalhes da VPS;
+- analytics, formulários e integrações;
+- domínio definitivo.
 
 ## Próxima execução recomendada
 
-Iniciar uma varredura profunda em blocos:
+Após resposta às pendências críticas, iniciar a varredura profunda em blocos:
 
 1. identidade e biografia;
 2. formação e trajetória profissional;
