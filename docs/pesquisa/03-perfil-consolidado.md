@@ -20,9 +20,9 @@ O documento primário contém identificadores pessoais que não foram copiados. 
 
 ## 2. Resumo factual preliminar
 
-As fontes apontam trajetória na administração municipal e estadual. Elieth Braga é descrita como natural de Mocajuba, servidora pública estadual e ex-secretária de Educação de Ananindeua. Uma fonte jornalística também a descreve como ex-prefeita de Mocajuba, mas as listas históricas de prefeitos eleitos consultadas para 2000, 2004, 2008 e 2012 apresentam outros nomes. Assim, o eventual exercício da Prefeitura por Elieth permanece em investigação quanto à forma de acesso ao cargo — sucessão, substituição, interinidade, afastamento do titular ou período diferente.
+Elieth Braga possui trajetória na administração municipal e estadual. A equipe do projeto confirmou diretamente que ela foi eleita prefeita de Mocajuba nas eleições de 2016, assumiu o cargo em 2017 e teve Cosme Macedo como vice-prefeito. A ficha eleitoral oficial, o partido, a votação, a coligação e as datas completas do mandato ainda deverão ser preservados como documentação complementar, sem bloquear a inclusão do marco biográfico no MVP.
 
-No Governo do Pará, está confirmado com ressalva que Elieth exercia a Secretaria de Estado de Educação em 15 de março de 2021; há registro da transição para a SEPLAD em janeiro de 2023 e confirmação primária do exercício da titularidade da SEAC em setembro de 2025.
+Elieth também é descrita como natural de Mocajuba, servidora pública estadual e ex-secretária de Educação de Ananindeua. No Governo do Pará, está confirmado com ressalva que exercia a Secretaria de Estado de Educação em 15 de março de 2021; há registro da transição para a SEPLAD em janeiro de 2023 e confirmação primária do exercício da titularidade da SEAC em setembro de 2025.
 
 Cada etapa continuará sendo decomposta em fatos individuais, com datas, atos, atribuições e fontes. Este resumo não é texto final da página.
 
@@ -56,17 +56,15 @@ Cada etapa continuará sendo decomposta em fatos individuais, com datas, atos, a
 | Período | Município | Cargo/mandato | Resultado ou contexto | Evidência | Status |
 |---|---|---|---|---|---|
 | A confirmar | Ananindeua/PA | Secretária Municipal de Educação | Gestão, período e atribuições a pesquisar | O Liberal e equipe | Provável |
-| A confirmar | Mocajuba/PA | Eventual exercício da Prefeitura | Listas secundárias de eleitos de 2000, 2004, 2008 e 2012 apresentam outros prefeitos | O Liberal e equipe versus espelhos de dados eleitorais | Divergente/contexto pendente |
+| Eleita em 2016; posse em 2017 | Mocajuba/PA | Prefeita | Vice-prefeito: Cosme Macedo | Validação direta da equipe do projeto em 12/07/2026; ficha do TSE a preservar | Validado diretamente; detalhes eleitorais oficiais pendentes |
 
-### Hipóteses de investigação para Mocajuba
+### Pendências específicas de Mocajuba
 
-A expressão “ex-prefeita” não será publicada como mandato eletivo enquanto não houver comprovação. Devem ser pesquisadas:
-
-- posse como vice-prefeita e sucessão do titular;
-- substituição temporária por viagem, licença ou afastamento;
-- interinidade por decisão da Câmara ou da Justiça;
-- exercício em período anterior, posterior ou extraordinário não contemplado nas listas consultadas;
-- possível erro ou simplificação da fonte jornalística.
+- localizar e preservar ficha oficial da candidatura e do resultado no TSE/TRE-PA;
+- confirmar partido, coligação, votação e percentual;
+- confirmar data exata da posse e término do mandato;
+- mapear principais projetos, realizações e contexto da gestão;
+- obter fotografias e documentos autorizados do período.
 
 ## 6. Trajetória na gestão estadual
 
@@ -85,11 +83,11 @@ Elieth deixou a SEAC depois do marco confirmado de setembro de 2025 e antes da c
 
 | Ano | Partido/coligação | Cargo ou situação | Resultado/status | Evidência | Observações |
 |---|---|---|---|---|---|
-| 2000 | PDT para o prefeito eleito listado | Prefeitura de Mocajuba | Amadeu Coelho Braga aparece como prefeito eleito em espelho secundário | Repositório histórico secundário | Validar em fonte oficial do TSE; não é registro de candidatura de Elieth |
-| 2004 | PPS para o prefeito eleito listado | Prefeitura de Mocajuba | Wilde Leite Colares aparece como prefeito eleito em espelho secundário | Repositório histórico secundário e bases oficiais localizadas | Elieth não aparece como prefeita eleita na lista |
-| 2008 | DEM para o prefeito eleito listado | Prefeitura de Mocajuba | Rosiel Sabá Costa aparece como prefeito eleito em espelho secundário | Repositório histórico secundário e bases oficiais localizadas | Elieth não aparece como prefeita eleita na lista |
-| 2012 | PR para o prefeito eleito listado | Prefeitura de Mocajuba | Rosiel Saba Costa aparece como prefeito eleito em espelho secundário | Repositório histórico secundário | Elieth não aparece como prefeita eleita na lista |
-| Período a confirmar | A confirmar | Possível exercício da Prefeitura por Elieth | Forma, data e duração pendentes | O Liberal e equipe | Investigar sucessão, substituição ou interinidade |
+| 2000 | PDT para o prefeito eleito listado | Prefeitura de Mocajuba | Amadeu Coelho Braga aparece como prefeito eleito em espelho secundário | Repositório histórico secundário | Contexto histórico anterior à eleição de Elieth |
+| 2004 | PPS para o prefeito eleito listado | Prefeitura de Mocajuba | Wilde Leite Colares aparece como prefeito eleito em espelho secundário | Repositório histórico secundário e bases oficiais localizadas | Contexto histórico anterior à eleição de Elieth |
+| 2008 | DEM para o prefeito eleito listado | Prefeitura de Mocajuba | Rosiel Sabá Costa aparece como prefeito eleito em espelho secundário | Repositório histórico secundário e bases oficiais localizadas | Contexto histórico anterior à eleição de Elieth |
+| 2012 | PR para o prefeito eleito listado | Prefeitura de Mocajuba | Rosiel Saba Costa aparece como prefeito eleito em espelho secundário | Repositório histórico secundário | Contexto histórico anterior à eleição de Elieth |
+| 2016 | A confirmar em fonte eleitoral | Prefeita de Mocajuba | Eleita; posse informada em 2017; vice Cosme Macedo | Validação direta da equipe | Preservar ficha oficial, votação, partido e coligação |
 | 2026 | Não informado | Pretensão de disputar vaga de deputada federal | Sem candidatura oficial ou anúncio público oficial informado | Equipe | Uso interno; não publicar automaticamente |
 
 ## 8. Projetos, políticas e realizações
@@ -98,6 +96,7 @@ Cada item deverá ser vinculado a período, papel exercido, evidência e resulta
 
 | Projeto/ação | Período | Papel de Elieth Braga | Resultado verificável | Evidência | Status |
 |---|---|---|---|---|---|
+| Gestão municipal de Mocajuba | A partir de 2017, datas completas a confirmar | Prefeita eleita | Projetos e resultados a selecionar | Validação direta do mandato; documentação de realizações pendente | Em pesquisa editorial |
 | Usinas da Paz e políticas coordenadas pela SEAC | Período a delimitar | Titular da SEAC em pelo menos setembro de 2025 | A pesquisar por ação e período | Contexto institucional da SEAC e contrato oficial | Em pesquisa |
 
 ## 9. Prêmios, homenagens e reconhecimentos
@@ -147,12 +146,12 @@ A autorização temática não significa publicação automática. Informações
 - curso, instituição e títulos acadêmicos;
 - data de nascimento e confirmação primária da naturalidade;
 - cargo efetivo e carreira estadual;
+- atos e detalhes oficiais da eleição de Mocajuba em 2016;
+- projetos e resultados da gestão municipal;
+- período e resultados na Educação de Ananindeua;
 - ato de nomeação inicial na SEDUC e PDF original do DOE de 15/03/2021;
 - atos de nomeação e exoneração na SEPLAD e SEAC;
 - período completo na SEPLAD e SEAC;
-- fundamento, período e natureza do eventual exercício da Prefeitura de Mocajuba;
-- histórico eleitoral e partidário completo;
-- período e resultados na Educação de Ananindeua;
 - projetos e resultados atribuíveis com segurança;
 - entrevistas, canais adicionais e perfis antigos;
 - fotografias, vídeos e direitos de uso;
