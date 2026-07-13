@@ -143,3 +143,37 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 - **Redes sociais:** usar Instagram e Facebook como fontes prioritárias por meio de conteúdo público, prévias, pesquisa de imagens, links individuais, exportação autorizada ou seleção manual da equipe.
 - **Critério de parada:** divergências de baixo impacto poderão ser omitidas ou tratadas com formulação segura, sem bloquear a Fase 2.
 - **Documentos:** `docs/pesquisa/10-estrategia-80-20-e-criterio-encerramento.md` e `docs/pesquisa/11-checklist-validacao-direta-elieth.md`.
+
+### D025 — Encerramento da Fase 1
+
+- **Decisão:** Encerrar a Fase 1 pelo critério 80/20.
+- **Motivo:** A identidade, os cargos centrais, os canais oficiais, os riscos e as lacunas críticas já estão suficientemente mapeados para o MVP.
+- **Consequência:** Novas pesquisas deixarão de bloquear estratégia, design e desenvolvimento. Lacunas relevantes serão tratadas por validação direta ou atualização futura.
+
+### D026 — Consolidação da Fase 2 em formato MVP
+
+- **Decisão:** Considerar suficiente a consolidação factual mínima registrada em `docs/fase2/`.
+- **Entregas:** dossiê factual, biografia-base e matriz de conteúdo publicável.
+- **Limite:** Conteúdo pendente de confirmação permanecerá fora da primeira versão ou será inserido após revisão de Elieth.
+
+### D027 — Posicionamento central
+
+- **Decisão:** Adotar como posicionamento inicial: **“Uma trajetória de serviço público ligada à educação, à gestão e à cidadania no Pará.”**
+- **Motivo:** Representa as áreas já verificadas sem antecipar comunicação eleitoral.
+
+### D028 — Landing page institucional de página única
+
+- **Decisão:** O MVP será uma landing page responsiva, leve e predominantemente estática, com navegação por âncoras.
+- **Motivo:** Permitir lançamento rápido, manutenção simples e futura expansão sem reconstrução completa.
+
+### D029 — Arquitetura do MVP
+
+- **Seções:** hero, sobre, trajetória, áreas de atuação, destaque institucional, conteúdos e redes, galeria opcional e rodapé.
+- **Destaque inicial:** participação na entrega da sede ampliada e modernizada da SEDUC, apresentada como resultado institucional e coletivo.
+- **Conteúdo municipal:** o exercício da Prefeitura de Mocajuba ficará fora até validação.
+
+### D030 — Limites funcionais do MVP
+
+- **Incluído:** apresentação, biografia, trajetória resumida, áreas de atuação, redes oficiais, SEO, responsividade e acessibilidade básica.
+- **Excluído:** CMS complexo, banco de dados, blog completo, agenda dinâmica, chatbot, captação de apoiadores e qualquer função eleitoral.
+- **Próxima fase:** Fase 4 — Conteúdo, identidade e experiência visual.
