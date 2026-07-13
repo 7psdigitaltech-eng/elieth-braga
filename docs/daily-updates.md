@@ -44,16 +44,8 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - A edição identifica Elieth de Fátima da Silva Braga como secretária da SEDUC.
 - O exercício da titularidade da SEDUC em 15/03/2021 foi classificado como confirmado com ressalva, até preservação do PDF original.
 - Confirmadas as páginas oficiais dos conjuntos de candidaturas e resultados do TSE de 2004 e 2008.
-- Utilizado espelho histórico secundário para examinar prefeitos eleitos de Mocajuba.
-- As listas consultadas apresentam:
-  - 2000: Amadeu Coelho Braga;
-  - 2004: Wilde Leite Colares;
-  - 2008: Rosiel Sabá Costa;
-  - 2012: Rosiel Saba Costa.
-- Elieth não aparece como prefeita eleita nas quatro listas.
-- A informação “ex-prefeita de Mocajuba” foi alterada de provável para divergente/contexto pendente.
-- Foram abertas hipóteses de sucessão, substituição, interinidade, afastamento do titular ou período diverso.
-- Decidido não usar “prefeita eleita”, partido, votação ou período até comprovação documental.
+- Utilizado espelho histórico secundário para examinar prefeitos eleitos de Mocajuba entre 2000 e 2012.
+- Como o pleito de 2016 ainda não havia sido incluído, a Prefeitura de Mocajuba foi temporariamente registrada como divergência.
 - Tentativas de leitura automatizada do Instagram e Facebook não retornaram conteúdo estruturado.
 - Definida rota de catalogação por acesso público disponível, pesquisa de imagens, links individuais, exportação ou materiais enviados pela equipe.
 - Criado `docs/pesquisa/08-relatorio-varredura-03.md`.
@@ -62,7 +54,6 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 ### Redimensionamento da Fase 1 — estratégia 80/20
 
 - Decidido não prolongar a pesquisa até esgotar todos os documentos, notícias ou publicações.
-- Definido um último sprint de pesquisa antes da Fase 2.
 - Criado `docs/pesquisa/10-estrategia-80-20-e-criterio-encerramento.md`.
 - Criado `docs/pesquisa/11-checklist-validacao-direta-elieth.md`.
 - Meta de redes reduzida para 10 a 20 publicações representativas e 8 a 12 imagens candidatas.
@@ -104,14 +95,61 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - Criado `docs/fase3/02-escopo-mvp.md`.
 - Definido formato de landing page institucional de página única.
 - Definidas as seções do MVP, o tom de voz, os pilares de mensagem, as chamadas para ação e os limites funcionais.
-- A Fase 3 foi iniciada e sua base estratégica foi concluída.
+- A Fase 3 foi concluída.
+
+### Correção validada — Prefeitura de Mocajuba
+
+- A equipe confirmou que Elieth Braga foi eleita prefeita de Mocajuba nas eleições de 2016.
+- Confirmada a posse em 2017.
+- Confirmado Cosme Macedo como vice-prefeito.
+- A divergência anterior foi encerrada: a busca havia examinado somente pleitos até 2012.
+- O marco municipal foi incorporado à linha do tempo, ao perfil consolidado, ao dossiê, à biografia, à matriz publicável e à arquitetura do MVP.
+- Permanecem pendentes somente partido, votação, coligação, percentual e datas completas do mandato em fonte eleitoral preservada.
+
+### Fase 4 — conteúdo, identidade e experiência visual
+
+- A Fase 4 foi iniciada.
+- Definida direção institucional paraense, humana, contemporânea e não eleitoral.
+- A identidade pública da administração estadual do Pará será referência cromática e cultural, sem copiar logotipo, brasão ou simular portal governamental.
+- Definida paleta provisória com vermelho, branco, azul, grafite e fundos claros.
+- Definida diagonal inspirada na bandeira do Pará como assinatura visual única e contida.
+- Criado `docs/fase4/00-direcao-visual.md`.
+
+### Avaliação de referências GitHub
+
+- Avaliados cinco repositórios relevantes:
+  - `anthropics/skills`;
+  - `shadcn-ui/ui`;
+  - `thedaviddias/Front-End-Checklist`;
+  - `vercel-labs/agent-skills`;
+  - `alexpate/awesome-design-systems`.
+- Escolhido `anthropics/skills`, skill `frontend-design`, como referência principal do processo visual.
+- Vercel e Front-End Checklist definidos como camadas complementares de implementação e auditoria.
+- Criado `docs/fase4/01-referencias-github-design.md`.
+
+### Workflow Cursor, Codex e GitHub
+
+- Confirmado que o código será executado no Cursor integrado ao Codex.
+- Criado `AGENTS.md` com instruções permanentes do projeto.
+- Criada regra do Cursor em `.cursor/rules/elieth-braga.mdc`.
+- Definido fluxo: prompt → branch → implementação → testes → screenshots → PR draft → revisão pelo GitHub → merge.
+- Proibido desenvolvimento direto na `main`.
+- Eduardo permanece responsável por aprovação, merge, credenciais e publicação.
+- ChatGPT permanece responsável por documentação, prompts, critérios e validação via GitHub.
+- Criado `docs/fase4/02-workflow-cursor-codex-github.md`.
+- Criado `prompts/01-direcao-visual-e-wireframe.md`.
+
+### Stack em avaliação
+
+- Astro, TypeScript e build estático foram registrados como preferência inicial para avaliação na Fase 5.
+- CSS com tokens ou Tailwind será decidido após validação do plano visual.
+- A escolha final da stack ocorrerá antes do scaffold.
 
 ### Próxima execução
 
-- iniciar Fase 4 — conteúdo, identidade e experiência visual;
-- criar direção visual e moodboard;
-- definir referências estéticas, cores e tipografia;
-- criar wireframe desktop e mobile;
-- selecionar fotografia principal provisória;
-- refinar textos para o layout;
-- preparar primeiro protótipo visual.
+- abrir o repositório no Cursor;
+- criar a branch `docs/fase4-wireframes`;
+- executar `prompts/01-direcao-visual-e-wireframe.md` com Codex;
+- gerar plano visual e wireframes desktop/mobile;
+- enviar as mudanças em pull request draft;
+- revisar a entrega pelo GitHub antes de iniciar código de aplicação.
