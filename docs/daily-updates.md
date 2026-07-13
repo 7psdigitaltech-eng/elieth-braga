@@ -4,61 +4,39 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 
 ## 2026-07-12
 
-### Inicialização do projeto
+### Inicialização e planejamento
 
-- Repositório `7psdigitaltech-eng/elieth-braga` criado no GitHub.
-- Conexão GitHub validada via ChatGPT.
-- Branch `main` inicializada.
-- README e estrutura documental inicial criados.
+- Repositório `7psdigitaltech-eng/elieth-braga` criado e conectado.
+- Projeto definido como página web pessoal e ativo digital próprio.
+- Plano mestre, protocolo de pesquisa, inventário, linha do tempo e perfil consolidado criados.
+- Autorização de Elieth confirmada.
+- Eduardo / 7PS Digital Tech definido como responsável operacional.
+- Primeira versão definida como pessoal, biográfica e institucional.
+- Diretrizes pré-eleitorais registradas.
+- Fase 0 encerrada e Fase 1 iniciada.
 
-### Definição inicial do produto
+### Primeira rodada da Fase 1
 
-- Projeto definido como criação de uma página web pessoal de Elieth Braga.
-- Visão ampliada para um ativo digital próprio, independente das redes sociais.
-- Possível evolução para conteúdos, notícias, agenda, projetos, atuação política e canais de relacionamento.
-- Hospedagem futura prevista em VPS Linux, inicialmente com subdomínio.
+- Página oficial atual da SEAC localizada.
+- Pacotes do TSE de 2004 e 2008 localizados.
+- IOEPA definida como fonte primária para atos estaduais.
+- Reportagens de dezembro de 2022 e janeiro de 2023 localizaram a transição SEDUC → SEPLAD.
+- Etapa SEPLAD integrada à trajetória preliminar.
+- Pistas biográficas catalogadas: naturalidade em Mocajuba, serviço público estadual, Ananindeua, Prefeitura de Mocajuba e nível superior.
+- Criado `docs/pesquisa/06-relatorio-varredura-01.md`.
 
-### Planejamento e governança
+### Segunda rodada da Fase 1
 
-- As macroetapas foram expandidas para oito fases operacionais.
-- Pesquisa factual definida como etapa anterior às decisões finais de conteúdo, design e tecnologia.
-- Plano mestre, protocolo de pesquisa, inventário, linha do tempo, perfil consolidado e controle de pendências criados.
-- Autorização de Elieth para pesquisa e criação confirmada.
-- Eduardo / 7PS Digital Tech definido como responsável operacional inicial.
-- Primeira versão definida como pessoal, biográfica e institucional, com trajetória política histórica.
-- Público definido em camadas, com foco primário na população do Pará e público geral que pesquisar por Elieth.
-- Instagram e Facebook oficiais iniciais registrados.
-- Política de aprovação proporcional ao risco estabelecida.
-- Fase 0 — Governança e Planejamento encerrada.
-
-### Diretriz pré-eleitoral
-
-- Pretensão informada de disputar vaga de deputada federal registrada apenas para uso interno.
-- Ausência de candidatura oficial e de anúncio público oficial registrada.
-- Decidido manter essa pretensão fora da primeira versão pública, salvo decisão expressa de Elieth e revisão jurídica.
-- Criado `docs/02-diretrizes-pre-eleitorais.md`.
-
-### Início da Fase 1
-
-- Fase 1 — Varredura pública e inventário de fontes iniciada.
-- Primeira rodada priorizou identidade, cargos estaduais, bases eleitorais, Diário Oficial e canais digitais.
-- Página oficial atual da SEAC/PA localizada e titular atual identificada.
-- Pacotes oficiais do TSE de candidaturas e votação de 2004 e 2008 localizados; extração ainda pendente.
-- IOEPA definida como fonte primária para os atos estaduais.
-- Suspensão temporária da Agência Pará durante o período eleitoral registrada como limitação da pesquisa.
-
-### Novos achados de trajetória
-
-- Reportagem de 26/12/2022 localizada com anúncio de transição da SEDUC para a SEPLAD.
-- Reportagem de 06/01/2023 localizada informando formalização no Diário Oficial da exoneração da SEDUC e nomeação na SEPLAD.
-- Etapa SEPLAD adicionada à trajetória preliminar: SEDUC → SEPLAD → SEAC.
-- Fonte jornalística localizada para as seguintes pistas biográficas:
-  - naturalidade em Mocajuba/PA;
-  - condição de servidora pública estadual;
-  - passagem pela Educação de Ananindeua;
-  - exercício da Prefeitura de Mocajuba;
-  - nível superior completo.
-- As pistas permanecem classificadas conforme força da evidência e necessidade de validação primária.
+- Localizado o Contrato Administrativo nº 16/2025-SEAC em fonte oficial.
+- O documento confirmou a grafia civil **Elieth de Fátima da Silva Braga**.
+- O documento confirmou Elieth como Secretária de Estado de Articulação da Cidadania em 4 de setembro de 2025.
+- Localizada a publicação oficial do extrato no Diário Oficial em 9 de setembro de 2025.
+- Confirmado um período mínimo de exercício da titularidade da SEAC no início de setembro de 2025.
+- Corroborado o domicílio em Belém/PA, com registro apenas em nível municipal.
+- Dados pessoais e identificadores presentes no documento foram deliberadamente omitidos do repositório.
+- Contexto institucional da SEAC e das Usinas da Paz registrado sem atribuição automática de autoria individual.
+- Tentativa de extração dos arquivos do TSE não foi concluída por limitação técnica do ambiente; pendência registrada sem inferência.
+- Criado `docs/pesquisa/07-relatorio-varredura-02.md`.
 
 ### Arquivos atualizados
 
@@ -66,14 +44,17 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - `docs/pesquisa/02-linha-do-tempo.md`
 - `docs/pesquisa/03-perfil-consolidado.md`
 - `docs/pesquisa/06-relatorio-varredura-01.md`
+- `docs/pesquisa/07-relatorio-varredura-02.md`
 - `docs/status.md`
 - `docs/daily-updates.md`
 
-### Próximo passo
+### Próxima execução
 
-- localizar atos originais da SEDUC e SEPLAD;
-- reconstruir a transição SEPLAD → SEAC;
 - localizar nomeação e exoneração na SEAC;
-- extrair dados eleitorais do TSE;
-- confirmar mandato em Mocajuba e período em Ananindeua;
-- iniciar catálogo das redes sociais e mídias.
+- reconstruir a transição SEPLAD → SEAC;
+- localizar os atos originais da SEDUC e SEPLAD;
+- obter registros eleitorais individualizados por rota alternativa;
+- confirmar eleição e mandato em Mocajuba;
+- pesquisar período na Educação de Ananindeua;
+- iniciar catálogo cronológico das redes sociais;
+- mapear projetos, ações e discursos por período de gestão.
