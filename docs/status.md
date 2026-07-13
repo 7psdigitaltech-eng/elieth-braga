@@ -4,18 +4,17 @@
 
 - **Fase concluída:** Fase 0 — Governança e planejamento
 - **Fase atual:** Fase 1 — Varredura pública e inventário de fontes
-- **Situação:** terceira rodada concluída; divergência municipal formalizada e marco SEDUC 2021 localizado
+- **Situação:** pesquisa redimensionada para modelo 80/20; último sprint antes da Fase 2
 - **Última atualização:** 2026-07-12
 
 ## Entregas realizadas
 
 - repositório, governança, plano mestre e protocolo de pesquisa estruturados;
-- inventário de fontes, linha do tempo e perfil factual em manutenção contínua;
+- inventário de fontes, linha do tempo e perfil factual em manutenção;
 - diretrizes pré-eleitorais registradas;
-- relatório 01 criado para identidade, cargos e fontes iniciais;
-- relatório 02 criado para confirmação primária na SEAC e minimização de dados;
-- relatório 03 criado para marco SEDUC, histórico eleitoral e divergência de Mocajuba;
+- três relatórios de varredura concluídos;
 - índice inicial de canais e mídias criado;
+- estratégia 80/20 e checklist de validação direta criados;
 - fontes oficiais, jornalísticas, secundárias e internas classificadas por nível e status.
 
 ## Principais achados acumulados
@@ -32,7 +31,7 @@
 
 ### Confirmado com ressalva
 
-- exercício da titularidade da SEDUC em 15/03/2021, com base em cópia textual de edição oficial juntada em processo do TJPA;
+- exercício da titularidade da SEDUC em 15/03/2021;
 - exoneração da SEDUC e nomeação na SEPLAD em janeiro de 2023, conforme imprensa que cita o Diário Oficial;
 - sequência estadual preliminar SEDUC → SEPLAD → SEAC;
 - condição de servidora pública estadual.
@@ -41,66 +40,64 @@
 
 - eventual exercício da Prefeitura de Mocajuba.
 
-A equipe e uma fonte jornalística identificam Elieth como ex-prefeita. Entretanto, listas secundárias de eleitos apresentam:
+A equipe e uma fonte jornalística identificam Elieth como ex-prefeita, mas as listas consultadas mostram outros prefeitos eleitos em 2000, 2004, 2008 e 2012. A primeira versão não usará “prefeita eleita”, partido, votação ou período sem validação. O contexto correto será buscado de forma enxuta e, se necessário, confirmado diretamente com Elieth.
 
-- 2000: Amadeu Coelho Braga;
-- 2004: Wilde Leite Colares;
-- 2008: Rosiel Sabá Costa;
-- 2012: Rosiel Saba Costa.
-
-A pesquisa passa a priorizar sucessão, substituição, interinidade, afastamento do titular ou período não contemplado. Não será usada a expressão “prefeita eleita” sem registro oficial.
-
-### Provável e pendente de validação própria
+### Provável e pendente de validação direta ou documental
 
 - naturalidade em Mocajuba/PA;
 - passagem pela Secretaria de Educação de Ananindeua;
-- nível superior completo;
-- data inicial da atuação na SEDUC;
-- períodos completos na SEPLAD e SEAC.
+- formação acadêmica detalhada;
+- cargo efetivo e tempo de serviço público;
+- data inicial na SEDUC;
+- períodos completos na SEPLAD e SEAC;
+- principais projetos e resultados atribuíveis com segurança.
+
+## Estratégia 80/20
+
+A Fase 1 não buscará esgotar todos os documentos, contratos, notícias ou publicações. O foco passa a ser produzir material suficiente para:
+
+- biografia inicial;
+- linha do tempo resumida;
+- destaques de trajetória;
+- temas e causas;
+- arquitetura das seções;
+- seleção visual preliminar;
+- links oficiais;
+- checklist de validação antes do lançamento.
+
+Após um último bloco concentrado, lacunas que possam ser respondidas com mais rapidez pela própria Elieth serão tratadas em validação direta.
 
 ## Redes e mídias
 
 - Instagram e Facebook foram confirmados pela equipe como canais oficiais;
-- a leitura automatizada direta não retornou o conteúdo das páginas;
-- foi criado `docs/pesquisa/09-indice-inicial-midias.md`;
-- a catalogação seguirá por acesso manual autorizado, exportação ou seleção enviada pela equipe;
-- nenhuma mídia será reutilizada sem análise de autoria e direitos.
-
-## Proteção de dados
-
-Documentos oficiais localizados contêm identificadores pessoais desnecessários para o projeto. Foram registrados apenas os fatos pertinentes. Não foram copiados CPF, números documentais, endereço particular, assinaturas isoladas ou dados de terceiros.
-
-## Limitações registradas
-
-- os arquivos compactados do TSE foram localizados, mas o cruzamento individual ainda não foi concluído;
-- as listas históricas utilizadas para os prefeitos eleitos são espelhos secundários e precisam de validação oficial;
-- a cópia textual do DOE de 15/03/2021 precisa ser substituída ou corroborada pelo PDF original;
-- Instagram e Facebook não puderam ser lidos automaticamente.
+- as redes serão usadas como fontes prioritárias para temas, linguagem, marcos, projetos e imagens;
+- quando a leitura automatizada não estiver disponível, serão utilizados conteúdo público acessível, prévias de busca, pesquisa de imagens, links individuais, exportação autorizada ou seleção manual;
+- não será necessário catalogar todo o histórico;
+- meta inicial: 10 a 20 publicações representativas e 8 a 12 imagens candidatas;
+- nenhuma mídia será reutilizada sem análise de origem e direito de uso.
 
 ## Diretriz do MVP
 
 A primeira versão será uma apresentação pessoal, biográfica e institucional, com trajetória política histórica e links oficiais. Não será apresentada como site de campanha. A pretensão de disputar vaga de deputada federal permanece fora do conteúdo público inicial, salvo decisão expressa de Elieth e revisão jurídica eleitoral.
 
-## Prioridades imediatas
+## Último sprint da Fase 1
 
-1. localizar documento que explique o exercício da Prefeitura de Mocajuba;
-2. pesquisar vice-prefeitos, sucessões, afastamentos, atas da Câmara e decisões eleitorais;
-3. preservar o PDF original do DOE de 15/03/2021 e localizar nomeação inicial na SEDUC;
-4. localizar atos originais da transição SEDUC → SEPLAD;
-5. reconstruir a transição SEPLAD → SEAC;
-6. localizar nomeação e exoneração na SEAC;
-7. confirmar período na Educação de Ananindeua;
-8. identificar formação e carreira funcional;
-9. obter primeiro lote de publicações ou mídias autorizadas;
-10. mapear projetos e ações por período de gestão.
+1. coletar biografia e temas úteis nas redes e fontes públicas acessíveis;
+2. identificar de três a cinco realizações ou áreas de atuação para cada fase principal;
+3. buscar apenas uma resolução rápida para o contexto da Prefeitura de Mocajuba;
+4. consolidar formação e carreira por fonte pública ou validação direta;
+5. montar seleção preliminar de publicações e imagens;
+6. transformar lacunas remanescentes em perguntas para Elieth;
+7. preparar o pacote de transição para a Fase 2.
 
 ## Critério para avançar à Fase 2
 
-- identidade sem homônimos;
-- linha do tempo suficientemente verificada;
-- perfil factual consolidado;
+- identidade confirmada;
+- linha do tempo suficiente para o MVP;
+- biografia factual preliminar;
 - fontes rastreáveis para os principais fatos;
-- lacunas e divergências explícitas;
+- divergências críticas explicitadas;
 - canais oficiais identificados;
-- situação dos direitos de uso das mídias;
-- revisão dos riscos editoriais, jurídicos e eleitorais.
+- seleção visual preliminar ou plano claro para obtê-la;
+- checklist de validação direta pronto;
+- riscos editoriais, autorais e eleitorais registrados.
