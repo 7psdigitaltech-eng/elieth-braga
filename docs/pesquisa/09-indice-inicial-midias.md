@@ -6,8 +6,8 @@
 
 | ID | Plataforma | Identificador | Situação de autenticidade | Conteúdo catalogado | Direitos de uso | Observações |
 |---|---|---|---|---|---|---|
-| CAN-001 | Instagram | `@eliethdefatima` | Confirmado pela equipe | Pendente | A confirmar | Acesso automatizado não retornou o conteúdo nesta rodada |
-| CAN-002 | Facebook | `Eliethdefatimabraga` | Confirmado pela equipe | Pendente | A confirmar | Acesso automatizado não retornou o conteúdo nesta rodada |
+| CAN-001 | Instagram | `@eliethdefatima` | Confirmado pela equipe | Seleção representativa pendente | A confirmar | Usar conteúdo público, links individuais, exportação ou seleção manual; não é necessário catalogar todo o perfil |
+| CAN-002 | Facebook | `Eliethdefatimabraga` | Confirmado pela equipe | Seleção representativa pendente | A confirmar | Usar conteúdo público, links individuais, exportação ou seleção manual; não é necessário catalogar todo o histórico |
 
 ## 2. Fontes institucionais com imagem ou registro público
 
@@ -18,8 +18,19 @@
 | MID-003 | Notícia | O Liberal, 26/12/2022 | Transição anunciada SEDUC → SEPLAD | Confirmado com ressalva | Texto e imagens protegidos; usar referência e síntese, não cópia |
 | MID-004 | Notícia/perfil | O Liberal, 06/01/2023 | Transição e breve perfil biográfico | Fonte catalogada | Texto e imagens protegidos; verificar licença antes de qualquer reprodução |
 | MID-005 | Diário Oficial reproduzido | DOE nº 34.518, 15/03/2021 | Elieth identificada como secretária da SEDUC | Confirmado com ressalva | Localizar original; não usar a cópia do processo como peça visual do site sem necessidade |
+| MID-006 | Fotografia institucional indexada | Portal do Governo do Pará / busca pública de imagens | Retrato associado à atuação na SEAC e às Usinas da Paz | Associação provável; validar com Elieth | Imagem candidata; confirmar origem, arquivo original e autorização antes de usar |
 
-## 3. Campos do futuro catálogo de publicações
+## 3. Meta enxuta do catálogo
+
+Para a primeira versão, o catálogo não precisa cobrir todo o histórico. A meta inicial é:
+
+- 10 a 20 publicações representativas;
+- 8 a 12 fotografias candidatas;
+- 2 a 5 vídeos, entrevistas ou discursos, quando disponíveis;
+- pelo menos uma mídia para cada fase principal da trajetória;
+- um registro claro de autoria e autorização das mídias escolhidas.
+
+## 4. Campos do catálogo de publicações
 
 Cada publicação selecionada deverá registrar:
 
@@ -29,18 +40,15 @@ Cada publicação selecionada deverá registrar:
 - data;
 - tipo: foto, vídeo, carrossel, texto, transmissão ou story arquivado;
 - tema;
-- pessoas retratadas;
-- local;
 - cargo ou período relacionado;
 - resumo factual;
 - autoria da mídia;
 - arquivo original disponível;
 - autorização de uso;
-- restrições;
-- relevância para biografia, trajetória, projeto ou galeria;
+- relevância para a página;
 - status editorial.
 
-## 4. Classificação de direitos
+## 5. Classificação de direitos
 
 - **Própria e autorizada:** arquivo original da equipe com autorização de uso.
 - **Institucional com autorização:** produzida por órgão público, com condições de uso verificadas.
@@ -49,22 +57,22 @@ Cada publicação selecionada deverá registrar:
 - **Origem desconhecida:** não publicar.
 - **Sensível:** contém familiares, menores, residência, localização em tempo real ou situação privada.
 
-## 5. Processo recomendado
+## 6. Processo recomendado
 
-1. solicitar à equipe uma exportação ou seleção inicial de 20 a 40 publicações relevantes;
-2. pedir os arquivos originais das fotos prioritárias;
-3. identificar fotógrafo, órgão ou produtor;
-4. classificar por período da trajetória;
-5. selecionar mídias com melhor qualidade e menor risco autoral;
-6. separar material de biografia, cargos, projetos, imprensa e vida pessoal;
-7. submeter mídias pessoais ou sensíveis à validação de Elieth.
+1. selecionar 10 a 20 publicações que melhor representem história, cargos, causas e projetos;
+2. obter 8 a 12 arquivos originais de fotos prioritárias;
+3. identificar fotógrafo, órgão ou produtor quando possível;
+4. classificar as mídias por fase da trajetória;
+5. priorizar qualidade visual, relevância e baixo risco autoral;
+6. validar com Elieth as mídias pessoais ou sensíveis;
+7. não atrasar a Fase 2 por falta de catalogação completa.
 
-## 6. Pendências
+## 7. Pendências que podem ser resolvidas diretamente
 
-- catalogar bio e links atuais do Instagram;
-- catalogar informações públicas da página do Facebook;
-- identificar perfis antigos ou duplicados;
-- localizar YouTube, LinkedIn, TikTok ou outros canais, caso existam;
-- obter acervo original;
-- definir autorização de uso das mídias das redes;
-- criar seleção visual inicial para a futura direção de arte.
+- bio e links atuais do Instagram;
+- informações públicas principais da página do Facebook;
+- perfis antigos ou duplicados;
+- canais adicionais;
+- seleção das publicações mais representativas;
+- arquivos originais e autoria das fotos;
+- autorização de uso das mídias escolhidas.
