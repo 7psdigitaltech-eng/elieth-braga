@@ -78,21 +78,40 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - Essas informações não foram tratadas como fatos; foram direcionadas para validação direta.
 - Criado `docs/pesquisa/12-pistas-biograficas-redes-e-indices.md`.
 
-### Arquivos atualizados
+### Encerramento da Fase 1
 
-- `docs/decisoes.md`
-- `docs/status.md`
-- `docs/daily-updates.md`
-- `docs/pesquisa/09-indice-inicial-midias.md`
-- `docs/pesquisa/10-estrategia-80-20-e-criterio-encerramento.md`
-- `docs/pesquisa/11-checklist-validacao-direta-elieth.md`
-- `docs/pesquisa/12-pistas-biograficas-redes-e-indices.md`
+- Realizado o último sprint de pesquisa com foco em conteúdo útil para o site.
+- Localizada notícia oficial da Agência Pará de 05/01/2023 sobre a entrega da sede ampliada e modernizada da SEDUC.
+- A fonte registra Elieth como secretária de Estado de Educação e o encerramento de seu ciclo à frente da pasta.
+- Registrado investimento superior a R$ 38 milhões e benefício previsto para cerca de 2 mil profissionais, sem atribuição de autoria exclusiva.
+- A Fase 1 foi encerrada pelo critério 80/20.
+- Lacunas remanescentes foram transferidas para validação direta com Elieth.
+
+### Fase 2 — consolidação factual do MVP
+
+- Criado `docs/fase2/00-dossie-factual-mvp.md`.
+- Criado `docs/fase2/01-biografia-base-mvp.md` com versões curta, intermediária e expandida.
+- Criado `docs/fase2/02-matriz-conteudo-publicavel.md`.
+- Atualizada `docs/pesquisa/05-matriz-de-realizacoes.md` com o marco da sede da SEDUC.
+- Definido o que pode ser publicado, o que deve ser omitido e o que depende de validação.
+- A Fase 2 foi considerada concluída em formato suficiente para o MVP.
+
+### Fase 3 — estratégia da presença digital
+
+- Definido o posicionamento: **“Uma trajetória de serviço público ligada à educação, à gestão e à cidadania no Pará.”**
+- Criado `docs/fase3/00-estrategia-presenca-digital.md`.
+- Criado `docs/fase3/01-arquitetura-informacao-mvp.md`.
+- Criado `docs/fase3/02-escopo-mvp.md`.
+- Definido formato de landing page institucional de página única.
+- Definidas as seções do MVP, o tom de voz, os pilares de mensagem, as chamadas para ação e os limites funcionais.
+- A Fase 3 foi iniciada e sua base estratégica foi concluída.
 
 ### Próxima execução
 
-- realizar o último sprint de pesquisa com foco em conteúdo útil para o site;
-- selecionar temas, causas, projetos e realizações de maior valor editorial;
-- buscar uma resolução rápida para o contexto da Prefeitura de Mocajuba;
-- obter ou solicitar seleção representativa de publicações e imagens;
-- consolidar a biografia factual preliminar;
-- preparar o pacote de transição para a Fase 2.
+- iniciar Fase 4 — conteúdo, identidade e experiência visual;
+- criar direção visual e moodboard;
+- definir referências estéticas, cores e tipografia;
+- criar wireframe desktop e mobile;
+- selecionar fotografia principal provisória;
+- refinar textos para o layout;
+- preparar primeiro protótipo visual.
