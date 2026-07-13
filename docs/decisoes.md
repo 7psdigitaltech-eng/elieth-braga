@@ -196,33 +196,43 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 - **Motivo:** A skill exige design baseado no sujeito, hero como tese, tipografia deliberada, estrutura informativa, assinatura visual e autocrítica antes do código.
 - **Referências complementares:** `vercel-labs/agent-skills`, `thedaviddias/Front-End-Checklist`, `shadcn-ui/ui` e `alexpate/awesome-design-systems`.
 
-### D034 — Execução de código pelo Cursor/Codex
+### D034 — Execução pelo Cursor/Codex
 
-- **Decisão:** A implementação do código será feita no Cursor integrado ao Codex.
-- **ChatGPT:** produz direção, documentos, prompts e critérios; valida mudanças pelo GitHub.
-- **Cursor/Codex:** executa código, testes, commits, branches e pull requests.
-- **Eduardo:** controla execução local, aprova decisões e realiza merge e publicação.
+- **Decisão:** A execução operacional será feita no Cursor integrado ao Codex.
+- **ChatGPT:** planeja, define direção, arquitetura, conteúdo, UX, prompts, critérios de aceite e valida mudanças pelo GitHub.
+- **Cursor/Codex:** executa tarefas já planejadas, implementa código, edita arquivos autorizados, roda testes, prepara commits, branches e pull requests.
+- **Eduardo:** controla execução local, aprova decisões relevantes, credenciais, servidor e publicação.
 - **Fonte de verdade:** GitHub.
+- **Limite:** Codex não define estratégia, stack, fase, roadmap, direção visual ou conteúdo por iniciativa própria.
 
 ### D035 — Instruções persistentes para agentes
 
 - **Decisão:** Criar `AGENTS.md` na raiz e regra permanente em `.cursor/rules/`.
 - **Motivo:** Não depender de prompts extensos e repetitivos; manter contexto, restrições e qualidade consistentes em todas as tarefas.
-- **Prompts:** cada tarefa terá arquivo versionado em `prompts/`.
+- **Prompts:** cada tarefa terá arquivo versionado em `prompts/`, escrito ou aprovado pelo ChatGPT.
 
 ### D036 — Workflow de branches e pull requests
 
 - **Decisão:** Proibir desenvolvimento direto na `main`.
-- **Fluxo:** uma tarefa por branch e PR; plano antes do código; testes e screenshots; PR draft; revisão pelo GitHub; squash merge após aprovação.
+- **Fluxo:** uma tarefa por branch e PR; confirmação operacional antes da execução; testes e screenshots; PR draft; revisão pelo GitHub; squash merge após aprovação.
 - **Qualidade:** lint, typecheck, testes e build deverão se tornar checks obrigatórios após criação do scaffold.
+- **Observação:** “Confirmação operacional” não é planejamento estratégico; é apenas checagem de entendimento, arquivos alterados, comandos e riscos técnicos.
 
 ### D037 — Stack preferencial em avaliação
 
 - **Preferência inicial:** Astro, TypeScript, CSS com tokens ou Tailwind, conteúdo desacoplado e build estático servido por Nginx.
 - **Motivo:** O MVP é predominantemente estático, precisa ser rápido, simples de hospedar na VPS e fácil de evoluir.
-- **Condição:** A escolha final será formalizada na Fase 5 antes da criação do scaffold.
+- **Condição:** A escolha final será formalizada pelo ChatGPT na Fase 5 antes da criação do scaffold.
 
 ### D038 — Início da Fase 4
 
 - **Decisão:** Considerar concluída a estratégia da Fase 3 e iniciar a Fase 4 — Conteúdo, identidade e experiência visual.
-- **Primeira execução:** usar `prompts/01-direcao-visual-e-wireframe.md` para produzir plano visual, wireframes desktop/mobile e critérios de aceite antes de escrever o código definitivo.
+- **Primeira execução:** o plano visual, os wireframes desktop/mobile e os critérios de aceite foram produzidos e mergeados no PR #1.
+- **Nota de governança:** futuras tarefas de planejamento devem ser feitas pelo ChatGPT; Codex deve executar apenas o escopo aprovado.
+
+### D039 — Separação definitiva entre planejamento e execução
+
+- **Decisão:** Formalizar que o ChatGPT é responsável por todo planejamento do projeto e que Cursor/Codex atua somente como executor.
+- **Motivo:** Evitar que o modo plano do Codex crie documentos estratégicos, redefina direção ou tome decisões de produto/design sem validação.
+- **Aplicação:** prompts futuros deverão conter escopo executável, arquivos-alvo, restrições e critérios já definidos. Codex deve apenas confirmar entendimento operacional antes de agir.
+- **Exceção:** Codex pode apontar riscos, inconsistências ou dúvidas e solicitar decisão; não deve resolver sozinho decisões estratégicas.
