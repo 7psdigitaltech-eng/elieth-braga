@@ -62,32 +62,44 @@ Formato recomendado:
 
 Marcos iniciais possíveis:
 
-1. experiência municipal na educação — após validação;
-2. Secretaria de Estado de Educação;
-3. Secretaria de Estado de Planejamento e Administração;
-4. Secretaria de Estado de Articulação da Cidadania;
-5. atuação atual ou novo ciclo — após definição.
+1. experiência municipal na Educação de Ananindeua — após validação;
+2. eleição para a Prefeitura de Mocajuba em 2016 e posse em 2017;
+3. Secretaria de Estado de Educação;
+4. Secretaria de Estado de Planejamento e Administração;
+5. Secretaria de Estado de Articulação da Cidadania;
+6. atuação atual ou novo ciclo — após definição.
 
-O exercício da Prefeitura de Mocajuba não entra até validação.
+Para Mocajuba, usar a formulação validada: Elieth foi eleita prefeita em 2016, assumiu em 2017 e teve Cosme Macedo como vice-prefeito. Não inserir partido, votação ou coligação até preservação da ficha oficial.
 
 ### 2.5 Áreas de atuação
 
 Objetivo: organizar a experiência por temas, e não apenas por cargos.
 
-Cards sugeridos:
+Eixos sugeridos:
 
 - **Educação pública**
-- **Gestão e planejamento**
+- **Gestão municipal**
+- **Gestão e planejamento estadual**
 - **Cidadania e articulação**
 - **Serviço público**
 
-Cada card deverá conter descrição breve e factual, evitando promessas ou atribuições excessivas.
+Cada eixo deverá conter descrição breve e factual, evitando promessas ou atribuições excessivas. Evitar sequência de cartões genéricos; a composição deve refletir a hierarquia real do conteúdo.
 
-### 2.6 Destaque de trajetória
+### 2.6 Destaques de trajetória
 
-Objetivo: apresentar um exemplo concreto e verificável.
+Objetivo: apresentar exemplos concretos e verificáveis.
 
-Destaque inicial sugerido:
+#### Marco municipal
+
+**Prefeitura de Mocajuba**
+
+Texto-base:
+
+> Eleita prefeita de Mocajuba em 2016, Elieth assumiu o Executivo municipal em 2017, tendo Cosme Macedo como vice-prefeito.
+
+Projetos e resultados específicos entrarão somente após seleção e validação.
+
+#### Marco estadual inicial
 
 **Modernização da sede da SEDUC**
 
@@ -95,7 +107,7 @@ Texto-base:
 
 > No encerramento de seu ciclo à frente da Secretaria de Estado de Educação, Elieth participou da entrega da sede ampliada e modernizada da SEDUC, estrutura destinada a melhorar as condições de trabalho e atendimento da administração educacional do Pará.
 
-A seção poderá usar uma fotografia oficial somente após avaliação de autoria e autorização.
+As seções poderão usar fotografias somente após avaliação de autoria e autorização.
 
 ### 2.7 Conteúdos e redes
 
@@ -115,6 +127,7 @@ Inserir somente quando houver de 6 a 10 imagens originais e autorizadas.
 Categorias possíveis:
 
 - trajetória pública;
+- Mocajuba;
 - educação;
 - cidadania;
 - eventos;
@@ -139,7 +152,7 @@ Elementos:
 A experiência deve seguir esta lógica:
 
 ```text
-Quem é → O que representa → Onde atuou → Em quais áreas → Exemplo concreto → Como acompanhar
+Quem é → De onde vem sua experiência → Onde atuou → Em quais áreas → Marcos concretos → Como acompanhar
 ```
 
 ## 4. Conteúdo fora do MVP
@@ -164,12 +177,13 @@ Quem é → O que representa → Onde atuou → Em quais áreas → Exemplo conc
 
 ### Descrição sugerida
 
-`Conheça a trajetória de Elieth Braga no serviço público paraense, com experiências em educação, planejamento, gestão e articulação da cidadania.`
+`Conheça a trajetória de Elieth Braga, ex-prefeita de Mocajuba e gestora pública com experiências em educação, planejamento e articulação da cidadania no Pará.`
 
 ### Termos principais
 
 - Elieth Braga
 - Elieth de Fátima da Silva Braga
+- prefeita de Mocajuba
 - gestão pública no Pará
 - educação no Pará
 - cidadania no Pará
@@ -190,13 +204,13 @@ Usar termos de cargos específicos apenas quando o conteúdo correspondente esti
 - sem pop-ups intrusivos;
 - chamadas claras para redes oficiais.
 
-## 7. Dependências para a próxima fase
-
-Antes de fechar o layout visual, precisamos apenas de:
+## 7. Dependências para fechar o layout visual
 
 1. escolha da fotografia principal;
 2. confirmação de formação e carreira para a seção “Sobre”;
-3. confirmação do contexto municipal que será ou não incluído;
+3. seleção de duas a quatro realizações da gestão de Mocajuba;
 4. seleção de 8 a 12 imagens autorizadas;
 5. validação da biografia-base por Elieth;
 6. decisão sobre incluir ou não contato institucional.
+
+Essas dependências não impedem a criação dos wireframes e do protótipo com marcadores provisórios claramente identificados.
