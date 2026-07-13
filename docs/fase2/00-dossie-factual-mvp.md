@@ -52,13 +52,19 @@ https://agenciapara.com.br/noticia/40586/estado-amplia-e-reconstroi-predio-sede-
 
 ### Prefeitura de Mocajuba
 
-- A equipe e fonte jornalística apresentam Elieth como ex-prefeita.
-- Listas históricas auxiliares de prefeitos eleitos de 2000, 2004, 2008 e 2012 apontam outros nomes.
-- A forma de exercício do cargo ainda não está esclarecida: eleição, sucessão, substituição ou interinidade.
+A equipe do projeto validou diretamente em 12/07/2026 que:
+
+- Elieth Braga foi eleita prefeita de Mocajuba nas eleições de 2016;
+- assumiu o cargo em 2017;
+- Cosme Macedo foi o vice-prefeito.
+
+A informação corrige a lacuna anterior, que havia considerado somente listas eleitorais de 2000 a 2012. A ficha oficial da eleição de 2016, o partido, a coligação e a votação ainda deverão ser preservados como evidência complementar.
 
 ### Formulação segura para o MVP
 
-Não utilizar “prefeita eleita”, partido, votação ou período até validação. O tema poderá ser omitido da primeira versão ou incluído somente após confirmação direta de Elieth.
+> Elieth Braga foi eleita prefeita de Mocajuba em 2016 e assumiu o cargo em 2017, tendo Cosme Macedo como vice-prefeito.
+
+Não incluir partido, votação, percentual ou datas completas do mandato até confirmação adicional.
 
 ## 4. Formação e carreira funcional
 
@@ -75,14 +81,19 @@ Esses pontos devem ser confirmados diretamente com Elieth antes de publicação.
 Com base nos cargos e fontes já catalogados, os eixos mais seguros para estruturar a página são:
 
 1. educação pública;
-2. gestão e planejamento;
-3. articulação de políticas públicas;
-4. cidadania e proximidade com a população;
-5. experiência no serviço público paraense.
+2. gestão municipal;
+3. gestão e planejamento estadual;
+4. articulação de políticas públicas;
+5. cidadania e proximidade com a população;
+6. experiência no serviço público paraense.
 
 Esses eixos representam áreas de atuação e não devem ser convertidos automaticamente em autoria individual de todos os programas dos órgãos.
 
-## 6. Realização institucional utilizável
+## 6. Realizações institucionais utilizáveis
+
+### Mandato em Mocajuba
+
+O mandato municipal poderá ser apresentado como marco da trajetória. Projetos, números e resultados específicos dependem de seleção e validação antes da publicação.
 
 ### Modernização da sede da SEDUC
 
@@ -106,6 +117,7 @@ Não afirmar autoria exclusiva do projeto ou de todos os investimentos.
 Pode orientar a primeira versão:
 
 - nome público e apresentação pessoal;
+- eleição para a Prefeitura de Mocajuba em 2016, posse em 2017 e vice Cosme Macedo;
 - trajetória no serviço público estadual;
 - atuação na SEDUC, SEPLAD e SEAC, com formulações proporcionais à evidência;
 - eixos de educação, gestão, cidadania e políticas públicas;
@@ -119,11 +131,11 @@ Pode orientar a primeira versão:
 - formação acadêmica;
 - cargo efetivo e tempo de serviço;
 - período em Ananindeua;
-- contexto da Prefeitura de Mocajuba;
+- detalhes oficiais da eleição e do mandato em Mocajuba;
 - principais realizações pessoais em cada cargo;
 - valores, causas e história pessoal;
 - seleção de fotografias e publicações autorizadas.
 
 ## 10. Conclusão
 
-A base factual já é suficiente para avançar à estratégia da presença digital. As lacunas restantes não bloqueiam o MVP quando o detalhe puder ser omitido, formulado de modo geral ou validado diretamente antes do lançamento.
+A base factual já é suficiente para avançar à identidade visual e ao desenvolvimento. As lacunas restantes não bloqueiam o MVP quando o detalhe puder ser omitido, formulado de modo geral ou validado diretamente antes do lançamento.
