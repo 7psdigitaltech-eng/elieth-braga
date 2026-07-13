@@ -10,10 +10,21 @@ Neste projeto, o **ChatGPT é responsável por planejamento, estratégia, arquit
 
 O **Cursor/Codex é responsável pela execução operacional** das tarefas já planejadas: editar arquivos conforme o prompt aprovado, implementar código, rodar verificações, produzir evidências e preparar commits/PRs.
 
+A divisão persistente de papéis é:
+
+```text
+ChatGPT = planejamento, estratégia, arquitetura, conteúdo, UX, prompts, critérios e validação
+Cursor/Codex = execução operacional do escopo aprovado
+Eduardo = controle local, prioridades, credenciais, servidor e publicação
+GitHub = fonte da verdade
+```
+
 Regras obrigatórias:
 
 - O Codex não deve criar planejamento estratégico, direção visual, arquitetura de produto ou novas fases por iniciativa própria.
 - O Codex pode apresentar apenas um **plano operacional curto** antes de editar: entendimento, arquivos que serão alterados, comandos/testes e riscos de execução.
+- O modo planejamento do Codex deve ser usado como etapa de segurança operacional, não como etapa decisória.
+- O ciclo correto é: ChatGPT entrega prompt fechado → Eduardo cola no Cursor/Codex em modo planejamento → Codex retorna plano operacional → Eduardo cola esse plano no ChatGPT → ChatGPT autoriza, ajusta ou bloqueia → somente depois o Codex executa.
 - Se a tarefa exigir decisão de produto, conteúdo, design, stack, escopo, governança ou priorização, o Codex deve parar e pedir definição ao ChatGPT/Eduardo.
 - Arquivos de planejamento, decisão e prompts devem ser criados ou alterados pelo ChatGPT, salvo quando o prompt aprovado pedir explicitamente uma alteração documental específica.
 - O Codex não deve ampliar escopo nem transformar sugestões em decisão.

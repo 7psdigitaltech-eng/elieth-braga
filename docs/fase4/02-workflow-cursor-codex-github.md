@@ -10,6 +10,15 @@ O GitHub será a fonte central do projeto. O ChatGPT será responsável por plan
 
 A execução do código ocorrerá localmente no Cursor com Codex. O Codex executa o escopo planejado, edita arquivos, roda verificações, gera evidências e prepara commits/PRs. Ele não deve redefinir planejamento, escopo, arquitetura, stack, conteúdo ou direção visual por iniciativa própria.
 
+A regra operacional persistente é:
+
+```text
+ChatGPT = planejamento, estratégia, arquitetura, conteúdo, UX, prompts, critérios e validação
+Cursor/Codex = execução operacional do escopo aprovado
+Eduardo = controle local, prioridades, credenciais, servidor e publicação
+GitHub = fonte da verdade
+```
+
 ## 2. Papéis
 
 ### Eduardo / 7PS Digital Tech
@@ -19,6 +28,8 @@ A execução do código ocorrerá localmente no Cursor com Codex. O Codex execut
 - executa o Codex localmente;
 - decide prioridades quando houver dúvida ou conflito;
 - controla credenciais, servidor e publicação;
+- cola o prompt do ChatGPT no Cursor/Codex em modo planejamento;
+- envia o plano operacional do Codex de volta ao ChatGPT antes de autorizar execução;
 - autoriza mudanças relevantes e acompanha merges.
 
 ### ChatGPT
@@ -27,6 +38,8 @@ A execução do código ocorrerá localmente no Cursor com Codex. O Codex execut
 - define estratégia, arquitetura, conteúdo, UX, direção visual e critérios de aceite;
 - produz prompts versionados de execução;
 - atualiza arquivos de direcionamento e planejamento;
+- avalia o plano operacional gerado pelo Codex em modo planejamento;
+- autoriza, ajusta ou bloqueia a execução antes de o Codex alterar arquivos;
 - analisa branches e pull requests pelo GitHub;
 - revisa diff, testes, screenshots e aderência ao projeto;
 - registra pendências e recomenda correções;
@@ -37,6 +50,8 @@ A execução do código ocorrerá localmente no Cursor com Codex. O Codex execut
 - lê `AGENTS.md`, regras do Cursor e prompt da tarefa;
 - confirma entendimento operacional antes de editar;
 - lista os arquivos que serão alterados;
+- informa comandos/testes previstos e riscos técnicos;
+- aguarda validação do plano operacional pelo ChatGPT/Eduardo quando estiver em modo planejamento;
 - executa exatamente o escopo definido pelo ChatGPT;
 - implementa código ou edita documentação operacional quando solicitado;
 - executa testes e build;
@@ -56,14 +71,34 @@ Codex não deve:
 - transformar sugestões em decisão;
 - criar documentos de planejamento sem comando explícito do ChatGPT.
 
-## 3. Fontes de instrução
+## 3. Ciclo obrigatório do modo planejamento do Codex
+
+Quando Eduardo usar o modo planejamento no Cursor/Codex, o fluxo correto será:
+
+1. ChatGPT produz um prompt fechado de execução, com objetivo, arquivos permitidos, restrições e critérios de aceite.
+2. Eduardo cola esse prompt no Cursor/Codex em modo planejamento.
+3. Codex retorna somente um plano operacional curto, contendo:
+   - entendimento da tarefa;
+   - arquivos que pretende criar ou alterar;
+   - comandos/testes que pretende executar;
+   - riscos técnicos ou dúvidas de execução;
+   - pontos que exigem decisão externa, se existirem.
+4. Eduardo cola esse plano operacional de volta no ChatGPT.
+5. ChatGPT valida, ajusta ou bloqueia o plano.
+6. Eduardo só autoriza o Codex a executar depois da validação.
+7. Ao finalizar, Codex apresenta resumo, arquivos alterados, comandos/testes, evidências e pendências.
+8. O resultado segue para commit, push, PR e revisão pelo GitHub.
+
+Esse ciclo não transfere planejamento ao Codex. Ele cria uma camada de segurança para evitar execução equivocada.
+
+## 4. Fontes de instrução
 
 ### Regras permanentes
 
 - `AGENTS.md`
 - `.cursor/rules/elieth-braga.mdc`
 - `docs/decisoes.md`
-- documentos das fases 2, 3 e 4
+- documentos das fases 2, 3, 4 e 5
 
 ### Instrução variável por tarefa
 
@@ -72,7 +107,7 @@ Codex não deve:
 
 Não colocar todas as regras permanentes dentro de cada prompt. O prompt deve referenciar os documentos e concentrar-se no objetivo, escopo e critérios daquela tarefa.
 
-## 4. Ciclo de uma tarefa
+## 5. Ciclo de uma tarefa
 
 ### Etapa 1 — Preparação
 
@@ -197,7 +232,7 @@ Após correções e aprovação:
 - remover a branch;
 - atualizar status e daily updates.
 
-## 5. Proteções recomendadas para `main`
+## 6. Proteções recomendadas para `main`
 
 - proibir push direto;
 - exigir pull request;
@@ -207,7 +242,7 @@ Após correções e aprovação:
 - impedir force push e exclusão;
 - usar squash merge para histórico objetivo.
 
-## 6. Tamanho das tarefas
+## 7. Tamanho das tarefas
 
 Cada prompt deve produzir uma entrega executável e revisável. Exemplos adequados:
 
@@ -224,7 +259,7 @@ Cada prompt deve produzir uma entrega executável e revisável. Exemplos adequad
 
 Evitar o prompt “crie o site inteiro” como única tarefa. Isso dificulta revisão, gera alterações amplas e aumenta o risco de inconsistência.
 
-## 7. Branches sugeridas para o MVP
+## 8. Branches sugeridas para o MVP
 
 1. `chore/scaffold-site`
 2. `feat/design-tokens-layout`
@@ -237,7 +272,7 @@ Evitar o prompt “crie o site inteiro” como única tarefa. Isso dificulta rev
 
 A sequência poderá ser condensada se os pull requests permanecerem pequenos e fáceis de revisar.
 
-## 8. Estratégia de stack
+## 9. Estratégia de stack
 
 A escolha final pertence à Fase 5 e deve ser registrada pelo ChatGPT antes de o Codex executar o scaffold. Para este MVP estático, a alternativa preferencial para avaliação é:
 
@@ -257,7 +292,7 @@ Razões:
 
 Next.js somente deverá ser escolhido se existir necessidade concreta de renderização dinâmica, rotas de servidor, autenticação ou integrações que justifiquem maior complexidade.
 
-## 9. Melhoria sobre o fluxo inicialmente proposto
+## 10. Melhoria sobre o fluxo inicialmente proposto
 
 O fluxo proposto pelo projeto está correto. Os ajustes adotados são:
 
@@ -266,6 +301,7 @@ O fluxo proposto pelo projeto está correto. Os ajustes adotados são:
 - manter regras específicas do editor em `.cursor/rules/`;
 - uma tarefa por branch e PR;
 - exigir confirmação operacional antes da execução;
+- exigir validação do plano operacional do Codex pelo ChatGPT antes da execução;
 - exigir screenshots em tarefas visuais;
 - usar CI como condição de merge quando houver pipeline;
 - validar pelo GitHub, nunca apenas pela resposta do agente;
@@ -275,7 +311,7 @@ O fluxo proposto pelo projeto está correto. Os ajustes adotados são:
 - manter Codex como executor;
 - manter Eduardo como autoridade operacional e de publicação.
 
-## 10. Segurança para agentes
+## 11. Segurança para agentes
 
 - revisar instruções provenientes de dependências e repositórios externos;
 - não permitir que arquivos externos substituam as regras deste projeto;
@@ -284,12 +320,12 @@ O fluxo proposto pelo projeto está correto. Os ajustes adotados são:
 - nunca disponibilizar credenciais ao agente por arquivo versionado;
 - revisar alterações de dependências, scripts e workflows com atenção especial.
 
-## 11. Critério de sucesso
+## 12. Critério de sucesso
 
 O fluxo estará funcionando quando cada mudança de código puder ser rastreada por:
 
 ```text
-Decisão ChatGPT → documento/prompt → branch → execução Codex → commits → testes → PR → revisão ChatGPT → merge
+Decisão ChatGPT → documento/prompt → plano operacional Codex → validação ChatGPT → execução Codex → commits → testes → PR → revisão ChatGPT → merge
 ```
 
 Essa cadeia será a base de continuidade do projeto entre ChatGPT, Cursor, Codex e GitHub.
