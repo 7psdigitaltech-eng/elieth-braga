@@ -6,11 +6,14 @@
 |---|---|---|---|---|---|---|
 | A confirmar | Identidade e origem | Nome civil: Elieth de Fátima da Silva Braga; fonte jornalística registra naturalidade em Mocajuba/PA | Contrato nº 16/2025-SEAC para o nome; O Liberal para naturalidade | Validação direta ainda necessária para naturalidade | Nome confirmado; origem provável | O nome completo foi confirmado em fonte primária; nascimento e naturalidade ainda precisam de validação própria |
 | A confirmar | Formação acadêmica | Fonte jornalística registra nível superior completo | O Liberal, 06/01/2023 | Instituição, curso e documentos pendentes | Provável | Não inferir curso, instituição ou titulação |
-| 2004 | Eleições municipais | Possível registro eleitoral relacionado a Mocajuba | Portal de Dados Abertos do TSE — pacote de candidaturas localizado | Pacote de votação localizado | Extração pendente | Download e cruzamento não concluídos nesta rodada |
-| 2008 | Eleições municipais | Possível registro eleitoral relacionado a Mocajuba | Portal de Dados Abertos do TSE — pacote de candidaturas localizado | Pacote de votação localizado | Extração pendente | Não afirmar candidatura, resultado ou mandato antes do cruzamento oficial |
+| 2000 | Eleição municipal de Mocajuba | Espelho secundário de eleitos lista Amadeu Coelho Braga como prefeito eleito pelo PDT | `mmacedo/iplbr`, arquivo `2000_pa.txt` | Fonte oficial do TSE a localizar | Pista forte, não primária | Elieth não aparece como prefeita eleita nessa lista; investigar eventual exercício posterior por sucessão ou substituição |
+| 2004 | Eleição municipal de Mocajuba | Espelho secundário de eleitos lista Wilde Leite Colares como prefeito eleito pelo PPS | `mmacedo/iplbr`, arquivo `2004_pa.txt` | Bases oficiais do TSE de 2004 localizadas | Pista forte, validação oficial pendente | Não confundir exercício eventual do cargo com vitória eleitoral |
+| 2008 | Eleição municipal de Mocajuba | Espelho secundário de eleitos lista Rosiel Sabá Costa como prefeito eleito pelo DEM | `mmacedo/iplbr`, arquivo `2008_pa.txt` | Bases oficiais do TSE de 2008 localizadas | Pista forte, validação oficial pendente | Elieth não aparece como prefeita eleita nessa lista |
+| 2012 | Eleição municipal de Mocajuba | Espelho secundário de eleitos lista Rosiel Saba Costa como prefeito eleito pelo PR | `mmacedo/iplbr`, arquivo `2012_pa.txt` | Base oficial de 2012 a localizar | Pista forte, validação oficial pendente | Pesquisar atas de posse, afastamentos e sucessões no período |
+| Período a confirmar | Gestão municipal | Possível exercício da Prefeitura de Mocajuba por Elieth Braga | O Liberal, 06/01/2023, e informação da equipe | TSE, TRE-PA, Câmara e atos municipais pendentes | Divergente/contexto pendente | As listas de eleitos consultadas apresentam outros titulares; hipótese principal de investigação: sucessão, substituição, interinidade, afastamento ou período diverso |
 | A confirmar | Gestão municipal | Secretaria Municipal de Educação de Ananindeua/PA | O Liberal, 06/01/2023, e equipe | Atos municipais a localizar | Provável | Confirmar nomeação, período, atribuições e exoneração |
-| A confirmar | Gestão municipal | Prefeitura de Mocajuba/PA | O Liberal, 06/01/2023, e equipe | TSE, TRE-PA, Câmara e Prefeitura | Provável | Confirmar eleição, posse, mandato, partido e votação |
-| 10/02/2020 a 05/01/2023 | Gestão estadual | Secretaria de Estado de Educação — SEDUC/PA | Cronologia secundária | O Liberal confirma a exoneração em janeiro de 2023; atos pendentes | Provável | A data inicial ainda depende do ato oficial |
+| Data inicial a confirmar | Gestão estadual | Nomeação de Elieth para a SEDUC/PA | Cronologia secundária aponta 10/02/2020 | Ato original de nomeação pendente | Provável | Não publicar a data inicial como confirmada |
+| 15/03/2021 | Gestão estadual | Edição do Diário Oficial identifica Elieth de Fátima da Silva Braga como secretária da SEDUC/PA | Cópia textual do DOE nº 34.518 juntada em processo do TJPA | PDF original do DOE a preservar | Confirmado com ressalva | Confirma exercício do cargo nesta data, mas a fonte acessada é um espelho textual de documento oficial |
 | 26/12/2022 | Transição anunciada | Anúncio de que Elieth deixaria a Educação e assumiria a SEPLAD | O Liberal | Formalização noticiada em 06/01/2023 | Confirmado com ressalva | Diferenciar anúncio da nomeação formal |
 | 06/01/2023 | Gestão estadual | Reportagem informa exoneração da SEDUC e nomeação para a SEPLAD no DOE | O Liberal, citando o DOE | Ato original a localizar | Confirmado com ressalva | Preservar ato oficial, número e redação exata |
 | Após 06/01/2023, término a confirmar | Gestão estadual | Secretaria de Estado de Planejamento e Administração — SEPLAD/PA | O Liberal | Atos de nomeação e exoneração pendentes | Confirmado com ressalva | Período final e transição para a SEAC desconhecidos |
@@ -25,9 +28,9 @@
 1. data de nascimento, naturalidade e formação acadêmica detalhada;
 2. ingresso, cargo efetivo e trajetória no serviço público estadual;
 3. período na Educação de Ananindeua;
-4. eleição, posse e mandato na Prefeitura de Mocajuba;
+4. fundamento, data e duração do eventual exercício da Prefeitura de Mocajuba;
 5. ato de nomeação inicial na SEDUC;
-6. atos originais da transição SEDUC/SEPLAD;
+6. PDF original do DOE de 15/03/2021 e atos originais da transição SEDUC/SEPLAD;
 7. período completo e exoneração na SEPLAD;
 8. ato de nomeação na SEAC;
 9. ato e data de exoneração na SEAC;
@@ -38,6 +41,7 @@
 
 - preferir dia, mês e ano quando disponíveis;
 - não inferir início ou término de função sem ato ou fonte confiável;
+- diferenciar eleição, posse por eleição, sucessão, substituição, interinidade e exercício temporário;
 - diferenciar anúncio, nomeação, posse, exoneração e exercício efetivo;
 - diferenciar pré-candidatura, escolha partidária, registro e candidatura deferida;
 - registrar intervalos inferidos como intervalos, nunca como datas confirmadas;
