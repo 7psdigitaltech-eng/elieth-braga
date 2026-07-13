@@ -7,9 +7,30 @@
   - Fase 1 — Varredura pública e inventário de fontes, encerrada pelo critério 80/20
   - Fase 2 — Verificação e consolidação em formato MVP
   - Fase 3 — Estratégia da presença digital
-- **Fase atual:** Fase 4 — Conteúdo, identidade e experiência visual
-- **Situação:** trajetória de Mocajuba corrigida; direção visual, referências GitHub e workflow Cursor/Codex/GitHub definidos
-- **Última atualização:** 2026-07-12
+  - Fase 4 — Conteúdo, identidade e experiência visual
+- **Fase atual:** Fase 5 — Arquitetura técnica e infraestrutura
+- **Situação:** direção visual e wireframes mergeados; governança ChatGPT/Codex corrigida; arquitetura técnica do scaffold definida
+- **Última atualização:** 2026-07-13
+
+## Governança operacional persistente
+
+```text
+ChatGPT = planejamento, estratégia, arquitetura, conteúdo, UX, prompts, critérios e validação
+Cursor/Codex = execução operacional do escopo aprovado
+Eduardo = controle local, prioridades, credenciais, servidor e publicação
+GitHub = fonte da verdade
+```
+
+### Ciclo obrigatório do modo planejamento do Codex
+
+1. ChatGPT entrega prompt fechado de execução.
+2. Eduardo cola o prompt no Cursor/Codex em modo planejamento.
+3. Codex retorna plano operacional curto.
+4. Eduardo cola esse plano de volta no ChatGPT.
+5. ChatGPT autoriza, ajusta ou bloqueia.
+6. Codex executa somente após autorização.
+
+O plano do Codex não é planejamento estratégico; é apenas confirmação operacional de entendimento, arquivos, comandos/testes e riscos técnicos.
 
 ## Entregas concluídas
 
@@ -35,8 +56,7 @@
 - pilares de mensagem definidos;
 - chamadas para ação do MVP definidas;
 - arquitetura de informação de página única definida;
-- escopo funcional do MVP definido;
-- critérios de aceite e dependências registrados.
+- escopo funcional do MVP definido.
 
 ### Fase 4
 
@@ -45,11 +65,20 @@
 - conceito da diagonal paraense definido como assinatura visual;
 - cinco repositórios GitHub avaliados;
 - `anthropics/skills` escolhido como referência principal de processo visual;
-- Vercel e Front-End Checklist definidos como camadas de auditoria;
-- `AGENTS.md` criado para instruções permanentes do Codex;
-- regra permanente do Cursor criada em `.cursor/rules/`;
-- workflow de branches, pull requests, testes e revisão documentado;
-- primeiro prompt versionado da Fase 4 criado.
+- workflow Cursor/Codex/GitHub documentado;
+- plano visual detalhado criado;
+- wireframes desktop e mobile criados;
+- critérios de aceite visual criados;
+- PR #1 mergeado com os documentos de Fase 4;
+- PR #2 mergeado com a correção de governança: ChatGPT planeja, Codex executa.
+
+### Fase 5
+
+- stack técnica definida para o scaffold: Astro + TypeScript + CSS próprio com tokens + build estático;
+- Next.js, Tailwind, React/Vue/Svelte, CMS, banco de dados e analytics ficam fora do scaffold inicial;
+- arquitetura técnica registrada em `docs/fase5/00-arquitetura-tecnica-mvp.md`;
+- plano do scaffold registrado em `docs/fase5/01-plano-scaffold-site.md`;
+- prompt de execução registrado em `prompts/02-scaffold-astro-mvp.md`.
 
 ## Correção factual — Prefeitura de Mocajuba
 
@@ -88,70 +117,14 @@ A página será o ativo digital próprio de Elieth Braga: uma referência centra
 8. galeria opcional com imagens autorizadas;
 9. rodapé e identificação editorial.
 
-## Direção visual
-
-- referência institucional paraense, humana e contemporânea;
-- cores predominantes: branco, grafite e azul;
-- vermelho usado como assinatura e chamada para ação;
-- diagonal inspirada na bandeira do Pará como elemento visual único;
-- não copiar logotipo, brasão ou assinatura do Governo do Pará;
-- não simular portal governamental;
-- não adotar aparência partidária ou eleitoral;
-- valores hexadecimais permanecem provisórios até obtenção de manual oficial atualizado.
-
-## Referência GitHub principal
-
-**`anthropics/skills` — `frontend-design`**
-
-Aplicação:
-
-- design baseado no sujeito e no conteúdo real;
-- hero como tese;
-- tipografia deliberada;
-- estrutura como informação;
-- uma assinatura visual própria;
-- planejamento e autocrítica antes do código.
-
-Referências complementares:
-
-- `vercel-labs/agent-skills` para acessibilidade, interface e desempenho;
-- `thedaviddias/Front-End-Checklist` para auditoria final;
-- `shadcn-ui/ui` para componentes, somente quando necessário e customizado;
-- `alexpate/awesome-design-systems` para repertório.
-
-## Workflow de código
-
-```text
-ChatGPT define e documenta
-→ prompt versionado
-→ Cursor/Codex implementa em branch
-→ testes e screenshots
-→ pull request draft
-→ ChatGPT valida pelo GitHub
-→ Eduardo aprova e realiza o merge
-```
-
-Regras centrais:
-
-- nenhum código direto na `main`;
-- uma tarefa por branch e PR;
-- `AGENTS.md` como instrução permanente;
-- prompts específicos em `prompts/`;
-- CI obrigatória quando o scaffold existir;
-- screenshots em mudanças visuais;
-- merge somente após revisão.
-
-## Stack em avaliação para a Fase 5
-
-Para o MVP estático, a preferência técnica inicial é:
+## Stack definida para o scaffold
 
 - Astro;
 - TypeScript;
-- CSS com tokens ou Tailwind;
-- conteúdo desacoplado;
-- build estático servido por Nginx na VPS.
-
-A escolha final será registrada na Fase 5 antes do scaffold.
+- CSS próprio com tokens;
+- conteúdo desacoplado em `src/content/site.ts`;
+- componentes Astro;
+- build estático servido futuramente por Nginx na VPS.
 
 ## Base factual publicável
 
@@ -178,17 +151,11 @@ A escolha final será registrada na Fase 5 antes do scaffold.
 
 ## Próxima execução
 
-Usar `prompts/01-direcao-visual-e-wireframe.md` no Cursor/Codex para criar:
+Usar `prompts/02-scaffold-astro-mvp.md` no Cursor/Codex em modo planejamento para gerar apenas o plano operacional do scaffold.
 
-1. plano visual detalhado;
-2. wireframe desktop;
-3. wireframe mobile;
-4. critérios de aceite visual;
-5. autocrítica contra aparência genérica.
+Depois, Eduardo deve colar o plano operacional aqui no ChatGPT para validação antes de autorizar a execução.
 
-Depois da revisão desses documentos, a Fase 5 definirá a arquitetura técnica e autorizará o scaffold do código.
-
-## Dependências que não bloqueiam o wireframe
+## Dependências que não bloqueiam o scaffold
 
 - fotografia principal autorizada;
 - confirmação de formação e carreira;
