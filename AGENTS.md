@@ -4,6 +4,20 @@
 
 Este repositório contém a documentação, o conteúdo e o código da presença digital de Elieth Braga. O produto inicial é uma página pessoal, biográfica e institucional, e não um site de campanha.
 
+## Governança de planejamento e execução
+
+Neste projeto, o **ChatGPT é responsável por planejamento, estratégia, arquitetura, conteúdo, UX, critérios de aceite e validação pelo GitHub**.
+
+O **Cursor/Codex é responsável pela execução operacional** das tarefas já planejadas: editar arquivos conforme o prompt aprovado, implementar código, rodar verificações, produzir evidências e preparar commits/PRs.
+
+Regras obrigatórias:
+
+- O Codex não deve criar planejamento estratégico, direção visual, arquitetura de produto ou novas fases por iniciativa própria.
+- O Codex pode apresentar apenas um **plano operacional curto** antes de editar: entendimento, arquivos que serão alterados, comandos/testes e riscos de execução.
+- Se a tarefa exigir decisão de produto, conteúdo, design, stack, escopo, governança ou priorização, o Codex deve parar e pedir definição ao ChatGPT/Eduardo.
+- Arquivos de planejamento, decisão e prompts devem ser criados ou alterados pelo ChatGPT, salvo quando o prompt aprovado pedir explicitamente uma alteração documental específica.
+- O Codex não deve ampliar escopo nem transformar sugestões em decisão.
+
 ## Leitura obrigatória antes de executar tarefas
 
 1. `docs/status.md`
@@ -50,7 +64,7 @@ Em caso de conflito, as decisões mais recentes em `docs/decisoes.md` prevalecem
 
 ## Arquitetura e código
 
-- Não escolher ou trocar framework sem registrar a decisão.
+- Não escolher ou trocar framework sem decisão registrada pelo ChatGPT.
 - Manter conteúdo, componentes e tokens visuais desacoplados.
 - Criar componentes pequenos e com responsabilidade clara.
 - Evitar duplicação, complexidade acidental e abstrações prematuras.
@@ -65,7 +79,7 @@ Em caso de conflito, as decisões mais recentes em `docs/decisoes.md` prevalecem
 - Prefixos preferidos: `feat/`, `fix/`, `docs/`, `refactor/`, `chore/`.
 - Usar commits pequenos e descritivos.
 - Abrir pull request em modo draft enquanto a implementação estiver incompleta.
-- O pull request deve informar: objetivo, arquivos alterados, decisões, testes executados, screenshots e pendências.
+- O pull request deve informar: objetivo, arquivos alterados, decisões já aplicadas, testes executados, screenshots e pendências.
 - Não fazer merge sem revisão.
 
 ## Verificações antes do pull request
@@ -96,6 +110,6 @@ Ao concluir uma tarefa, registrar:
 1. resumo objetivo do que foi feito;
 2. arquivos criados ou alterados;
 3. comandos e testes executados;
-4. decisões ou suposições adotadas;
-5. limitações e pendências;
+4. decisões do planejamento que foram aplicadas, sem criar novas decisões estratégicas;
+5. limitações, dúvidas e pendências para o ChatGPT/Eduardo;
 6. URL ou número do pull request, quando disponível.
