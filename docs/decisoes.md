@@ -134,3 +134,12 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 
 - **Decisão:** Considerar concluída a Fase 0 — Governança e Planejamento.
 - **Próxima fase:** Fase 1 — Varredura pública e inventário de fontes.
+
+### D024 — Estratégia 80/20 para a Fase 1
+
+- **Decisão:** Não buscar exaurir todas as informações públicas, documentos e publicações de Elieth Braga.
+- **Objetivo:** reunir apenas a base factual, editorial e visual necessária para desenvolver a primeira versão da página.
+- **Execução:** realizar um último bloco concentrado de pesquisa e transferir para validação direta com Elieth as lacunas que ela possa responder com mais rapidez e precisão.
+- **Redes sociais:** usar Instagram e Facebook como fontes prioritárias por meio de conteúdo público, prévias, pesquisa de imagens, links individuais, exportação autorizada ou seleção manual da equipe.
+- **Critério de parada:** divergências de baixo impacto poderão ser omitidas ou tratadas com formulação segura, sem bloquear a Fase 2.
+- **Documentos:** `docs/pesquisa/10-estrategia-80-20-e-criterio-encerramento.md` e `docs/pesquisa/11-checklist-validacao-direta-elieth.md`.
