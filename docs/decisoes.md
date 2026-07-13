@@ -63,10 +63,10 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 - **Nome público:** Elieth Braga.
 - **Condição:** A grafia e as variações deverão ser confirmadas em fontes primárias e documentos oficiais.
 
-### D012 — Dados fornecidos não equivalem a fatos publicados
+### D012 — Dados fornecidos não equivalem automaticamente a fatos publicados
 
-- **Decisão:** Informações biográficas e profissionais fornecidas pela equipe serão registradas como hipóteses iniciais, pendentes de validação documental.
-- **Motivo:** Permitir que a pesquisa seja orientada pelo conhecimento da equipe sem comprometer a integridade do dossiê factual.
+- **Decisão:** Informações fornecidas pela equipe podem orientar a pesquisa e, quando expressamente confirmadas, serão registradas como validação direta.
+- **Motivo:** Distinguir validação humana, fonte documental e hipótese de pesquisa.
 
 ### D013 — Cargo eletivo pretendido
 
@@ -139,10 +139,9 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 
 - **Decisão:** Não buscar exaurir todas as informações públicas, documentos e publicações de Elieth Braga.
 - **Objetivo:** reunir apenas a base factual, editorial e visual necessária para desenvolver a primeira versão da página.
-- **Execução:** realizar um último bloco concentrado de pesquisa e transferir para validação direta com Elieth as lacunas que ela possa responder com mais rapidez e precisão.
+- **Execução:** transferir para validação direta com Elieth as lacunas que ela possa responder com mais rapidez e precisão.
 - **Redes sociais:** usar Instagram e Facebook como fontes prioritárias por meio de conteúdo público, prévias, pesquisa de imagens, links individuais, exportação autorizada ou seleção manual da equipe.
 - **Critério de parada:** divergências de baixo impacto poderão ser omitidas ou tratadas com formulação segura, sem bloquear a Fase 2.
-- **Documentos:** `docs/pesquisa/10-estrategia-80-20-e-criterio-encerramento.md` e `docs/pesquisa/11-checklist-validacao-direta-elieth.md`.
 
 ### D025 — Encerramento da Fase 1
 
@@ -168,12 +167,62 @@ Este arquivo registra decisões relevantes do projeto para evitar perda de conte
 
 ### D029 — Arquitetura do MVP
 
-- **Seções:** hero, sobre, trajetória, áreas de atuação, destaque institucional, conteúdos e redes, galeria opcional e rodapé.
-- **Destaque inicial:** participação na entrega da sede ampliada e modernizada da SEDUC, apresentada como resultado institucional e coletivo.
-- **Conteúdo municipal:** o exercício da Prefeitura de Mocajuba ficará fora até validação.
+- **Seções:** hero, sobre, trajetória, áreas de atuação, destaques institucionais, conteúdos e redes, galeria opcional e rodapé.
+- **Marcos iniciais:** eleição e posse na Prefeitura de Mocajuba; atuação na SEDUC, SEPLAD e SEAC.
+- **Destaques:** mandato municipal e participação na entrega da sede ampliada e modernizada da SEDUC, sempre com formulação proporcional à evidência.
 
 ### D030 — Limites funcionais do MVP
 
 - **Incluído:** apresentação, biografia, trajetória resumida, áreas de atuação, redes oficiais, SEO, responsividade e acessibilidade básica.
 - **Excluído:** CMS complexo, banco de dados, blog completo, agenda dinâmica, chatbot, captação de apoiadores e qualquer função eleitoral.
-- **Próxima fase:** Fase 4 — Conteúdo, identidade e experiência visual.
+
+### D031 — Correção da trajetória municipal
+
+- **Decisão:** Registrar como validação direta que Elieth Braga foi eleita prefeita de Mocajuba em 2016, assumiu o cargo em 2017 e teve Cosme Macedo como vice-prefeito.
+- **Consequência:** O marco passa a integrar biografia, linha do tempo, SEO e arquitetura do MVP.
+- **Pendência:** Preservar ficha oficial da Justiça Eleitoral antes de publicar partido, votação, coligação, percentual ou datas completas do mandato.
+
+### D032 — Direção visual vinculada ao Pará
+
+- **Decisão:** Usar como referência cromática e cultural a identidade pública da administração estadual do Pará.
+- **Paleta-base:** vermelho, branco, azul, grafite e fundos claros.
+- **Assinatura:** diagonal inspirada na bandeira do Pará, reinterpretada de maneira própria e contida.
+- **Limite:** Não copiar logotipo, brasão ou assinatura governamental e não sugerir que a página pertence ou é oficialmente chancelada pelo Governo do Estado.
+- **Observação:** Os tokens hexadecimais são provisórios até obtenção de manual oficial atualizado.
+
+### D033 — Referência GitHub principal de design
+
+- **Decisão:** Adotar `anthropics/skills`, especificamente `skills/frontend-design/SKILL.md`, como referência principal do processo visual.
+- **Motivo:** A skill exige design baseado no sujeito, hero como tese, tipografia deliberada, estrutura informativa, assinatura visual e autocrítica antes do código.
+- **Referências complementares:** `vercel-labs/agent-skills`, `thedaviddias/Front-End-Checklist`, `shadcn-ui/ui` e `alexpate/awesome-design-systems`.
+
+### D034 — Execução de código pelo Cursor/Codex
+
+- **Decisão:** A implementação do código será feita no Cursor integrado ao Codex.
+- **ChatGPT:** produz direção, documentos, prompts e critérios; valida mudanças pelo GitHub.
+- **Cursor/Codex:** executa código, testes, commits, branches e pull requests.
+- **Eduardo:** controla execução local, aprova decisões e realiza merge e publicação.
+- **Fonte de verdade:** GitHub.
+
+### D035 — Instruções persistentes para agentes
+
+- **Decisão:** Criar `AGENTS.md` na raiz e regra permanente em `.cursor/rules/`.
+- **Motivo:** Não depender de prompts extensos e repetitivos; manter contexto, restrições e qualidade consistentes em todas as tarefas.
+- **Prompts:** cada tarefa terá arquivo versionado em `prompts/`.
+
+### D036 — Workflow de branches e pull requests
+
+- **Decisão:** Proibir desenvolvimento direto na `main`.
+- **Fluxo:** uma tarefa por branch e PR; plano antes do código; testes e screenshots; PR draft; revisão pelo GitHub; squash merge após aprovação.
+- **Qualidade:** lint, typecheck, testes e build deverão se tornar checks obrigatórios após criação do scaffold.
+
+### D037 — Stack preferencial em avaliação
+
+- **Preferência inicial:** Astro, TypeScript, CSS com tokens ou Tailwind, conteúdo desacoplado e build estático servido por Nginx.
+- **Motivo:** O MVP é predominantemente estático, precisa ser rápido, simples de hospedar na VPS e fácil de evoluir.
+- **Condição:** A escolha final será formalizada na Fase 5 antes da criação do scaffold.
+
+### D038 — Início da Fase 4
+
+- **Decisão:** Considerar concluída a estratégia da Fase 3 e iniciar a Fase 4 — Conteúdo, identidade e experiência visual.
+- **Primeira execução:** usar `prompts/01-direcao-visual-e-wireframe.md` para produzir plano visual, wireframes desktop/mobile e critérios de aceite antes de escrever o código definitivo.
