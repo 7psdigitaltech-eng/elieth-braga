@@ -1,5 +1,5 @@
 ---
-description: Regras permanentes para design, conteúdo e implementação do projeto Elieth Braga
+description: Regras permanentes para execução no Cursor/Codex do projeto Elieth Braga
 globs:
   - "**/*"
 alwaysApply: true
@@ -8,6 +8,14 @@ alwaysApply: true
 # Projeto Elieth Braga
 
 Antes de editar qualquer arquivo, leia `AGENTS.md` e o prompt específico da tarefa em `prompts/`.
+
+## Divisão de papéis
+
+- ChatGPT planeja, define estratégia, arquitetura, UX, conteúdo, critérios e validação.
+- Cursor/Codex executa o que já foi planejado e aprovado.
+- Codex não cria planejamento estratégico, direção visual, nova arquitetura, nova fase ou mudança de escopo por iniciativa própria.
+- Antes de editar, Codex pode apenas confirmar entendimento operacional, listar arquivos que serão alterados e informar testes/comandos previstos.
+- Se houver decisão de produto, design, stack, conteúdo ou prioridade, Codex deve parar e pedir definição ao ChatGPT/Eduardo.
 
 ## Regras essenciais
 
@@ -25,8 +33,10 @@ Antes de editar qualquer arquivo, leia `AGENTS.md` e o prompt específico da tar
 
 ## Forma de trabalho
 
-1. Resuma o entendimento da tarefa.
-2. Liste os arquivos que pretende alterar.
-3. Implemente em mudanças pequenas.
+1. Confirme o entendimento operacional da tarefa.
+2. Liste os arquivos que serão alterados.
+3. Execute exatamente o escopo aprovado.
 4. Revise visual e tecnicamente.
-5. Registre testes, screenshots, decisões e pendências no pull request.
+5. Registre testes, screenshots, decisões aplicadas e pendências no pull request.
+
+Não use o modo plano do Codex para redefinir o projeto. Use-o apenas para confirmar execução antes de alterar arquivos.
