@@ -145,11 +145,25 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - CSS com tokens ou Tailwind será decidido após validação do plano visual.
 - A escolha final da stack ocorrerá antes do scaffold.
 
-### Próxima execução
+## 2026-07-13
 
-- abrir o repositório no Cursor;
-- criar a branch `docs/fase4-wireframes`;
-- executar `prompts/01-direcao-visual-e-wireframe.md` com Codex;
-- gerar plano visual e wireframes desktop/mobile;
-- enviar as mudanças em pull request draft;
-- revisar a entrega pelo GitHub antes de iniciar código de aplicação.
+### Fase 4 concluída
+
+- PR #1 mergeado com o plano visual, wireframes desktop/mobile e critérios de aceite visual.
+- Criados `docs/fase4/03-plano-visual-codex.md`, `docs/fase4/04-wireframe-desktop.md`, `docs/fase4/05-wireframe-mobile.md` e `docs/fase4/06-criterios-de-aceite-visual.md`.
+- Confirmada a direção visual: institucional paraense, humana, clara, serena e sem estética eleitoral.
+
+### Governança ChatGPT/Codex corrigida
+
+- PR #2 mergeado para formalizar a divisão correta de papéis.
+- Regra persistente: ChatGPT planeja; Cursor/Codex executa; Eduardo controla operação, prioridades, credenciais, servidor e publicação; GitHub é fonte da verdade.
+- O modo planejamento do Codex foi limitado a confirmação operacional, sem criação de estratégia, arquitetura, stack, conteúdo ou roadmap.
+
+### Fase 5 iniciada
+
+- Definida a stack do scaffold: Astro + TypeScript + CSS próprio com tokens + build estático.
+- Registrada a decisão de não usar Tailwind, Next.js, React/Vue/Svelte, CMS, banco, analytics ou imagens reais no scaffold inicial.
+- Criado `docs/fase5/00-arquitetura-tecnica-mvp.md`.
+- Criado `docs/fase5/01-plano-scaffold-site.md`.
+- Criado `prompts/02-scaffold-astro-mvp.md`.
+- Próxima execução: Eduardo deve rodar o prompt no Cursor/Codex em modo planejamento e trazer o plano operacional para validação do ChatGPT antes de executar.
