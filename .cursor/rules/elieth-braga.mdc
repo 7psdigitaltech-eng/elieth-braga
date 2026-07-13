@@ -13,9 +13,24 @@ Antes de editar qualquer arquivo, leia `AGENTS.md` e o prompt específico da tar
 
 - ChatGPT planeja, define estratégia, arquitetura, UX, conteúdo, critérios e validação.
 - Cursor/Codex executa o que já foi planejado e aprovado.
+- Eduardo controla execução local, prioridades, credenciais, servidor e publicação.
+- GitHub é a fonte da verdade.
 - Codex não cria planejamento estratégico, direção visual, nova arquitetura, nova fase ou mudança de escopo por iniciativa própria.
 - Antes de editar, Codex pode apenas confirmar entendimento operacional, listar arquivos que serão alterados e informar testes/comandos previstos.
 - Se houver decisão de produto, design, stack, conteúdo ou prioridade, Codex deve parar e pedir definição ao ChatGPT/Eduardo.
+
+## Uso do modo planejamento do Codex
+
+O modo planejamento do Codex deve seguir este ciclo obrigatório:
+
+1. ChatGPT entrega um prompt fechado de execução.
+2. Eduardo cola o prompt no Cursor/Codex em modo planejamento.
+3. Codex retorna um plano operacional curto, limitado a entendimento, arquivos-alvo, comandos/testes, riscos técnicos e dúvidas.
+4. Eduardo cola esse plano de volta no ChatGPT.
+5. ChatGPT autoriza, ajusta ou bloqueia o plano.
+6. Codex só executa depois dessa autorização.
+
+O modo planejamento não deve redefinir arquitetura, stack, direção visual, conteúdo, escopo ou prioridades. Ele serve para prevenir execução fora do escopo.
 
 ## Regras essenciais
 
@@ -35,8 +50,9 @@ Antes de editar qualquer arquivo, leia `AGENTS.md` e o prompt específico da tar
 
 1. Confirme o entendimento operacional da tarefa.
 2. Liste os arquivos que serão alterados.
-3. Execute exatamente o escopo aprovado.
-4. Revise visual e tecnicamente.
-5. Registre testes, screenshots, decisões aplicadas e pendências no pull request.
+3. Aguarde a validação do plano operacional pelo ChatGPT quando estiver em modo planejamento.
+4. Execute exatamente o escopo aprovado.
+5. Revise visual e tecnicamente.
+6. Registre testes, screenshots, decisões aplicadas e pendências no pull request.
 
 Não use o modo plano do Codex para redefinir o projeto. Use-o apenas para confirmar execução antes de alterar arquivos.
