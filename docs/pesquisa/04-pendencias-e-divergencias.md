@@ -9,7 +9,7 @@ Registrar perguntas sem resposta, versões incompatíveis, informações dinâmi
 | ID | Tema | Pergunta ou divergência | Prioridade | Como validar | Status |
 |---|---|---|---|---|---|
 | P-001 | Identidade | Qual é o nome civil completo e quais variações pertencem à mesma pessoa? | Crítica | Contrato oficial da SEAC e outros atos | Resolvida para o nome civil: Elieth de Fátima da Silva Braga |
-| P-002 | Gestão municipal — Mocajuba | Elieth é descrita como ex-prefeita, mas listas históricas de eleitos de 2000, 2004, 2008 e 2012 apresentam outros prefeitos. Em que período e por qual fundamento ela exerceu a Prefeitura? | Crítica | TSE/TRE-PA, atas da Câmara, atos de posse, decisões judiciais, afastamentos, sucessão e validação direta | Aberta — divergência prioritária |
+| P-002 | Gestão municipal — Mocajuba | Em que eleição e contexto Elieth exerceu a Prefeitura? | Crítica | Validação direta e ficha oficial TSE/TRE-PA | Resolvida no núcleo: eleita em 2016, posse em 2017, vice Cosme Macedo. Detalhes oficiais pendentes |
 | P-003 | Gestão estadual | Quais são as datas e os atos completos na SEDUC, SEPLAD e SEAC? | Crítica | Diário Oficial e portais oficiais | Parcialmente resolvida: SEDUC confirmada com ressalva em 15/03/2021 e SEAC confirmada em setembro de 2025 |
 | P-004 | Formação | Quais cursos, títulos e instituições podem ser documentalmente confirmados? | Alta | Currículo oficial, instituições e confirmação direta | Aberta |
 | P-005 | Atuação atual | Qual atividade ou cargo público exerce em 2026? | Crítica | Portal oficial, atos vigentes e confirmação direta | Aberta; confirmado apenas que não é a atual titular da SEAC em 12/07/2026 |
@@ -23,37 +23,45 @@ Registrar perguntas sem resposta, versões incompatíveis, informações dinâmi
 | P-013 | Saída da SEAC | Qual foi a data, o ato e a motivação formal da exoneração? | Crítica | DOE e Casa Civil | Aberta; intervalo conhecido entre 09/09/2025 e 12/07/2026 |
 | P-014 | Ananindeua | Em que gestão, período e atos Elieth exerceu a Secretaria Municipal de Educação? | Alta | Diário Oficial municipal, Prefeitura, Câmara e notícias contemporâneas | Aberta |
 
-## Detalhamento da divergência P-002 — Prefeitura de Mocajuba
+## Resolução da divergência P-002 — Prefeitura de Mocajuba
 
-### Informação favorável ao exercício do cargo
+### Validação direta recebida
 
-- equipe do projeto informa que Elieth foi prefeita de Mocajuba;
-- reportagem de O Liberal de 06/01/2023 a descreve como ex-prefeita.
+Em 12/07/2026, a equipe do projeto informou e confirmou que:
 
-### Informação que impede afirmar mandato eletivo
+- Elieth Braga foi eleita prefeita de Mocajuba nas eleições municipais de 2016;
+- assumiu o cargo em 2017;
+- Cosme Macedo foi o vice-prefeito da chapa.
 
-Listas secundárias de eleitos, a serem confirmadas nas bases oficiais, apresentam:
+### Motivo da divergência anterior
 
-- 2000: Amadeu Coelho Braga — PDT;
-- 2004: Wilde Leite Colares — PPS;
-- 2008: Rosiel Sabá Costa — DEM;
-- 2012: Rosiel Saba Costa — PR.
+A primeira rodada eleitoral havia consultado somente listas históricas de eleitos de 2000, 2004, 2008 e 2012. Como o pleito de 2016 ainda não havia sido incluído no cruzamento, a ausência do nome de Elieth nesses anos foi interpretada corretamente como uma lacuna, mas não abrangia a eleição em que ela venceu.
 
-### Hipóteses permitidas para investigação
+### Correção editorial
 
-1. Elieth era vice-prefeita e assumiu por sucessão;
-2. exerceu substituição temporária durante afastamento ou viagem do titular;
-3. assumiu interinamente por decisão da Câmara ou da Justiça;
-4. exerceu o cargo em período não coberto pelas quatro eleições consultadas;
-5. a reportagem utilizou uma simplificação ou contém erro.
+Agora é permitido registrar no MVP:
 
-Nenhuma dessas hipóteses será convertida em fato sem documento.
+> Elieth Braga foi eleita prefeita de Mocajuba em 2016 e assumiu o cargo em 2017, tendo Cosme Macedo como vice-prefeito.
+
+### Detalhes ainda pendentes
+
+- partido e número eleitoral;
+- coligação;
+- votação total e percentual;
+- situação oficial do registro;
+- data exata da posse;
+- término ou eventual interrupção do mandato;
+- ficha oficial do TSE/TRE-PA;
+- principais realizações da gestão.
+
+Esses detalhes não bloqueiam a inclusão do marco biográfico validado diretamente, mas não deverão ser inventados ou publicados sem confirmação.
 
 ## Regras
 
 - cada divergência deve apontar para as fontes conflitantes;
 - não escolher automaticamente a versão mais repetida;
 - informações atuais devem registrar data de verificação;
-- itens críticos bloqueiam publicação até resolução;
+- validação direta deve ser identificada como tal;
+- itens críticos bloqueiam publicação apenas quando não houver formulação segura;
 - diferenciar mandato eletivo de exercício temporário ou por sucessão;
 - temas jurídicos, eleitorais, reputacionais ou de privacidade devem ser encaminhados para revisão especializada.
