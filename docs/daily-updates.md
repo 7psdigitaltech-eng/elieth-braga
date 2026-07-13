@@ -35,26 +35,51 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - Corroborado o domicílio em Belém/PA, com registro apenas em nível municipal.
 - Dados pessoais e identificadores presentes no documento foram deliberadamente omitidos do repositório.
 - Contexto institucional da SEAC e das Usinas da Paz registrado sem atribuição automática de autoria individual.
-- Tentativa de extração dos arquivos do TSE não foi concluída por limitação técnica do ambiente; pendência registrada sem inferência.
+- Tentativa de extração dos arquivos do TSE não foi concluída; pendência registrada sem inferência.
 - Criado `docs/pesquisa/07-relatorio-varredura-02.md`.
+
+### Terceira rodada da Fase 1
+
+- Localizada cópia textual do DOE nº 34.518, de 15/03/2021, reproduzida em autos do TJPA e espelhada publicamente.
+- A edição identifica Elieth de Fátima da Silva Braga como secretária da SEDUC.
+- O exercício da titularidade da SEDUC em 15/03/2021 foi classificado como confirmado com ressalva, até preservação do PDF original.
+- Confirmadas as páginas oficiais dos conjuntos de candidaturas e resultados do TSE de 2004 e 2008.
+- Utilizado espelho histórico secundário para examinar prefeitos eleitos de Mocajuba.
+- As listas consultadas apresentam:
+  - 2000: Amadeu Coelho Braga;
+  - 2004: Wilde Leite Colares;
+  - 2008: Rosiel Sabá Costa;
+  - 2012: Rosiel Saba Costa.
+- Elieth não aparece como prefeita eleita nas quatro listas.
+- A informação “ex-prefeita de Mocajuba” foi alterada de provável para divergente/contexto pendente.
+- Foram abertas hipóteses de sucessão, substituição, interinidade, afastamento do titular ou período diverso.
+- Decidido não usar “prefeita eleita”, partido, votação ou período até comprovação documental.
+- Tentativas de leitura automatizada do Instagram e Facebook não retornaram conteúdo.
+- Definida rota de catalogação por acesso manual autorizado, exportação ou materiais enviados pela equipe.
+- Criado `docs/pesquisa/08-relatorio-varredura-03.md`.
+- Criado `docs/pesquisa/09-indice-inicial-midias.md`.
 
 ### Arquivos atualizados
 
 - `docs/pesquisa/01-inventario-de-fontes.md`
 - `docs/pesquisa/02-linha-do-tempo.md`
 - `docs/pesquisa/03-perfil-consolidado.md`
+- `docs/pesquisa/04-pendencias-e-divergencias.md`
 - `docs/pesquisa/06-relatorio-varredura-01.md`
 - `docs/pesquisa/07-relatorio-varredura-02.md`
+- `docs/pesquisa/08-relatorio-varredura-03.md`
+- `docs/pesquisa/09-indice-inicial-midias.md`
 - `docs/status.md`
 - `docs/daily-updates.md`
 
 ### Próxima execução
 
-- localizar nomeação e exoneração na SEAC;
-- reconstruir a transição SEPLAD → SEAC;
-- localizar os atos originais da SEDUC e SEPLAD;
-- obter registros eleitorais individualizados por rota alternativa;
-- confirmar eleição e mandato em Mocajuba;
-- pesquisar período na Educação de Ananindeua;
-- iniciar catálogo cronológico das redes sociais;
-- mapear projetos, ações e discursos por período de gestão.
+- localizar atas, atos ou decisões que expliquem o exercício da Prefeitura de Mocajuba;
+- pesquisar vice-prefeitos, sucessões e afastamentos;
+- preservar o PDF original do DOE de 15/03/2021;
+- localizar nomeação inicial na SEDUC;
+- localizar atos originais SEDUC → SEPLAD → SEAC;
+- localizar exoneração da SEAC;
+- confirmar período na Educação de Ananindeua;
+- obter primeiro lote de mídias autorizadas;
+- confirmar formação e carreira funcional.
