@@ -9,78 +9,71 @@ Registro cronológico de avanços, decisões operacionais e próximos passos.
 - Repositório `7psdigitaltech-eng/elieth-braga` criado no GitHub.
 - Conexão GitHub validada via ChatGPT.
 - Branch `main` inicializada.
-- README inicial criado.
-- Estrutura documental inicial criada.
+- README e estrutura documental inicial criados.
 
 ### Definição inicial do produto
 
-- O projeto foi definido como criação de uma página web pessoal de Elieth Braga.
-- A página deverá funcionar inicialmente como apresentação digital online.
-- A visão foi ampliada para um ativo digital próprio, independente das redes sociais.
-- Foi registrada a possibilidade de evolução para conteúdos, notícias, agenda, projetos, atuação política e canais de relacionamento.
-- Foi registrada a hospedagem futura em VPS Linux, inicialmente com subdomínio.
+- Projeto definido como criação de uma página web pessoal de Elieth Braga.
+- Visão ampliada para um ativo digital próprio, independente das redes sociais.
+- Possível evolução para conteúdos, notícias, agenda, projetos, atuação política e canais de relacionamento.
+- Hospedagem futura prevista em VPS Linux, inicialmente com subdomínio.
 
-### Planejamento estruturado
+### Planejamento e governança
 
-- As três macroetapas apresentadas foram expandidas para oito fases operacionais.
-- Foi estabelecido que a pesquisa factual deverá ocorrer antes das decisões finais de conteúdo, design e tecnologia.
-- Foi criado o plano mestre em `docs/01-plano-mestre.md`.
-- Foi criado o protocolo de pesquisa em `docs/pesquisa/00-protocolo-de-pesquisa.md`.
-- Foi criado o inventário inicial de fontes.
-- Foram criados modelos para linha do tempo, perfil consolidado e controle de pendências.
-- Foram incorporados controles de rastreabilidade, privacidade, direitos autorais, direitos de imagem e revisão jurídica/eleitoral.
-
-### Briefing e identidade-base
-
-- Nome completo informado: Elieth de Fátima da Silva Braga.
-- Nome público: Elieth Braga.
-- Foram registrados como dados fornecidos e pendentes de validação:
-  - condição de servidora pública estadual;
-  - Secretaria Municipal de Educação de Ananindeua;
-  - Prefeitura de Mocajuba;
-  - Secretaria de Estado de Educação do Pará;
-  - Secretaria Estratégica de Articulação da Cidadania — SEAC/PA;
-  - residência e domicílio em Belém/PA.
-- O cargo eletivo pretendido foi confirmado como deputada federal.
-- Foi registrado que não há candidatura oficial nem anúncio público oficial informado.
-
-### Governança concluída
-
+- As macroetapas foram expandidas para oito fases operacionais.
+- Pesquisa factual definida como etapa anterior às decisões finais de conteúdo, design e tecnologia.
+- Plano mestre, protocolo de pesquisa, inventário, linha do tempo, perfil consolidado e controle de pendências criados.
 - Autorização de Elieth para pesquisa e criação confirmada.
 - Eduardo / 7PS Digital Tech definido como responsável operacional inicial.
 - Primeira versão definida como pessoal, biográfica e institucional, com trajetória política histórica.
-- Página inicial definida como apresentação predominantemente estática.
 - Público definido em camadas, com foco primário na população do Pará e público geral que pesquisar por Elieth.
-- Ações principais definidas: conhecer trajetória, acessar redes e compreender experiência pública.
 - Instagram e Facebook oficiais iniciais registrados.
-- Temas pessoais permitidos registrados: nascimento, idade, família, religião, história pessoal, origem familiar, vida acadêmica e hobbies.
-- Prazo desejado definido como o mais breve possível.
 - Política de aprovação proporcional ao risco estabelecida.
-- A Fase 0 — Governança e Planejamento foi encerrada.
+- Fase 0 — Governança e Planejamento encerrada.
 
 ### Diretriz pré-eleitoral
 
-- A legislação e as normas do TSE foram consultadas preliminarmente.
-- Foi identificado que a menção à pretensa candidatura pode não configurar propaganda antecipada quando não houver pedido explícito de voto.
-- Como não houve anúncio público de Elieth, decidiu-se manter a pretensão de candidatura fora da primeira versão pública, salvo decisão expressa e revisão jurídica.
-- Foi criado `docs/02-diretrizes-pre-eleitorais.md`.
-- A pesquisa deverá acompanhar convenções, eventual registro, DivulgaCandContas e regras aplicáveis em 2026.
+- Pretensão informada de disputar vaga de deputada federal registrada apenas para uso interno.
+- Ausência de candidatura oficial e de anúncio público oficial registrada.
+- Decidido manter essa pretensão fora da primeira versão pública, salvo decisão expressa de Elieth e revisão jurídica.
+- Criado `docs/02-diretrizes-pre-eleitorais.md`.
 
-### Canais oficiais iniciais
+### Início da Fase 1
 
-- Instagram: https://www.instagram.com/eliethdefatima/
-- Facebook: https://www.facebook.com/Eliethdefatimabraga
+- Fase 1 — Varredura pública e inventário de fontes iniciada.
+- Primeira rodada priorizou identidade, cargos estaduais, bases eleitorais, Diário Oficial e canais digitais.
+- Página oficial atual da SEAC/PA localizada e titular atual identificada.
+- Pacotes oficiais do TSE de candidaturas e votação de 2004 e 2008 localizados; extração ainda pendente.
+- IOEPA definida como fonte primária para os atos estaduais.
+- Suspensão temporária da Agência Pará durante o período eleitoral registrada como limitação da pesquisa.
+
+### Novos achados de trajetória
+
+- Reportagem de 26/12/2022 localizada com anúncio de transição da SEDUC para a SEPLAD.
+- Reportagem de 06/01/2023 localizada informando formalização no Diário Oficial da exoneração da SEDUC e nomeação na SEPLAD.
+- Etapa SEPLAD adicionada à trajetória preliminar: SEDUC → SEPLAD → SEAC.
+- Fonte jornalística localizada para as seguintes pistas biográficas:
+  - naturalidade em Mocajuba/PA;
+  - condição de servidora pública estadual;
+  - passagem pela Educação de Ananindeua;
+  - exercício da Prefeitura de Mocajuba;
+  - nível superior completo.
+- As pistas permanecem classificadas conforme força da evidência e necessidade de validação primária.
+
+### Arquivos atualizados
+
+- `docs/pesquisa/01-inventario-de-fontes.md`
+- `docs/pesquisa/02-linha-do-tempo.md`
+- `docs/pesquisa/03-perfil-consolidado.md`
+- `docs/pesquisa/06-relatorio-varredura-01.md`
+- `docs/status.md`
+- `docs/daily-updates.md`
 
 ### Próximo passo
 
-Iniciar a Fase 1 — Varredura pública e inventário de fontes, priorizando:
-
-1. identidade e biografia;
-2. atos de nomeação e exoneração;
-3. cronologia de cargos;
-4. gestões municipal e estadual;
-5. redes sociais e presença digital;
-6. histórico eleitoral e partidário;
-7. notícias, entrevistas e documentos;
-8. conformidade da presença digital no contexto pré-eleitoral;
-9. imagens, vídeos e direitos de uso.
+- localizar atos originais da SEDUC e SEPLAD;
+- reconstruir a transição SEPLAD → SEAC;
+- localizar nomeação e exoneração na SEAC;
+- extrair dados eleitorais do TSE;
+- confirmar mandato em Mocajuba e período em Ananindeua;
+- iniciar catálogo das redes sociais e mídias.
