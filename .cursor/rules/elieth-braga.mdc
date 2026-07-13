@@ -1,0 +1,32 @@
+---
+description: Regras permanentes para design, conteúdo e implementação do projeto Elieth Braga
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Projeto Elieth Braga
+
+Antes de editar qualquer arquivo, leia `AGENTS.md` e o prompt específico da tarefa em `prompts/`.
+
+## Regras essenciais
+
+- O MVP é uma página pessoal, biográfica e institucional; não é site de campanha.
+- Não inserir conteúdo eleitoral, partidário ou de pré-candidatura sem autorização e revisão jurídica.
+- Não inventar fatos, datas, números, projetos ou citações.
+- Conferir conteúdo biográfico em `docs/fase2/02-matriz-conteudo-publicavel.md`.
+- Seguir a estratégia em `docs/fase3/` e a direção visual em `docs/fase4/`.
+- Não copiar logotipos ou assinaturas oficiais do Governo do Pará; usar somente a referência cromática e cultural autorizada no projeto.
+- Não usar imagens sem origem e direito de uso definidos.
+- Implementar HTML semântico, acessibilidade WCAG AA, foco visível, redução de movimento, responsividade e bom desempenho.
+- Não adicionar dependências sem justificativa.
+- Não trabalhar diretamente na branch `main`.
+- Executar lint, typecheck, testes e build antes de abrir o pull request, quando os scripts estiverem disponíveis.
+
+## Forma de trabalho
+
+1. Resuma o entendimento da tarefa.
+2. Liste os arquivos que pretende alterar.
+3. Implemente em mudanças pequenas.
+4. Revise visual e tecnicamente.
+5. Registre testes, screenshots, decisões e pendências no pull request.
