@@ -1,0 +1,31 @@
+---
+import "../styles/global.css";
+import { siteContent } from "../content/site";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = siteContent.publicName,
+  description = siteContent.position
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">{siteContent.primaryCta}</a>
+    <slot />
+  </body>
+</html>

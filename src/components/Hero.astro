@@ -1,0 +1,26 @@
+---
+import PlaceholderImage from "./PlaceholderImage.astro";
+import { siteContent } from "../content/site";
+---
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-content">
+    <p class="eyebrow">{siteContent.fullName}</p>
+    <h1 id="hero-title">{siteContent.publicName}</h1>
+    <p class="hero-position">{siteContent.position}</p>
+    <div class="hero-actions" aria-label="Elieth Braga">
+      <a class="button button-primary" href="#conteudo">
+        {siteContent.primaryCta}
+      </a>
+      <a class="button button-secondary" href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
+        {siteContent.instagramCta}
+      </a>
+      <a class="button button-link" href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
+        {siteContent.facebookCta}
+      </a>
+    </div>
+  </div>
+  <div class="hero-media" aria-hidden="false">
+    <PlaceholderImage label={siteContent.mainImagePlaceholder} />
+  </div>
+</section>

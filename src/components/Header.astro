@@ -1,0 +1,18 @@
+---
+import { siteContent } from "../content/site";
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label={siteContent.publicName}>
+    {siteContent.publicName}
+  </a>
+  <nav class="header-nav" aria-label="Elieth Braga">
+    <a href="#conteudo">{siteContent.primaryCta}</a>
+    <a href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
+      {siteContent.instagramCta}
+    </a>
+    <a href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
+      {siteContent.facebookCta}
+    </a>
+  </nav>
+</header>
