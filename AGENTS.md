@@ -24,7 +24,10 @@ Regras obrigatórias:
 - O Codex não deve criar planejamento estratégico, direção visual, arquitetura de produto ou novas fases por iniciativa própria.
 - O Codex pode apresentar apenas um **plano operacional curto** antes de editar: entendimento, arquivos que serão alterados, comandos/testes e riscos de execução.
 - O modo planejamento do Codex deve ser usado como etapa de segurança operacional, não como etapa decisória.
-- O ciclo correto é: ChatGPT entrega prompt fechado → Eduardo cola no Cursor/Codex em modo planejamento → Codex retorna plano operacional → Eduardo cola esse plano no ChatGPT → ChatGPT autoriza, ajusta ou bloqueia → somente depois o Codex executa.
+- O ciclo padrão é: ChatGPT entrega prompt fechado → Eduardo cola no Cursor/Codex em modo planejamento → Codex retorna plano operacional → Eduardo cola esse plano no ChatGPT → ChatGPT autoriza, ajusta ou bloqueia → somente depois o Codex executa.
+- Quando a documentação, a stack, a direção visual, o conteúdo permitido e os guardrails já estiverem consolidados, o ChatGPT pode autorizar **execução acelerada**: um prompt único de execução direta, sem plano operacional separado, desde que o escopo esteja fechado e os arquivos permitidos/proibidos estejam explícitos.
+- A execução acelerada não autoriza o Codex a decidir stack, arquitetura, conteúdo, design, escopo, governança ou prioridade. Se surgir decisão não prevista, o Codex deve parar e reportar.
+- As regras completas da execução acelerada ficam em `docs/execucao-acelerada.md`.
 - Se a tarefa exigir decisão de produto, conteúdo, design, stack, escopo, governança ou priorização, o Codex deve parar e pedir definição ao ChatGPT/Eduardo.
 - Arquivos de planejamento, decisão e prompts devem ser criados ou alterados pelo ChatGPT, salvo quando o prompt aprovado pedir explicitamente uma alteração documental específica.
 - O Codex não deve ampliar escopo nem transformar sugestões em decisão.
@@ -33,12 +36,13 @@ Regras obrigatórias:
 
 1. `docs/status.md`
 2. `docs/decisoes.md`
-3. `docs/fase2/02-matriz-conteudo-publicavel.md`
-4. `docs/fase3/00-estrategia-presenca-digital.md`
-5. `docs/fase3/01-arquitetura-informacao-mvp.md`
-6. `docs/fase3/02-escopo-mvp.md`
-7. `docs/fase4/00-direcao-visual.md`
-8. o prompt específico da tarefa em `prompts/`
+3. `docs/execucao-acelerada.md`
+4. `docs/fase2/02-matriz-conteudo-publicavel.md`
+5. `docs/fase3/00-estrategia-presenca-digital.md`
+6. `docs/fase3/01-arquitetura-informacao-mvp.md`
+7. `docs/fase3/02-escopo-mvp.md`
+8. `docs/fase4/00-direcao-visual.md`
+9. o prompt específico da tarefa em `prompts/`
 
 Em caso de conflito, as decisões mais recentes em `docs/decisoes.md` prevalecem.
 
