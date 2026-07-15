@@ -1,11 +1,10 @@
 ---
-import PlaceholderImage from "./PlaceholderImage.astro";
 import { siteContent } from "../content/site";
 ---
 
 <section class="hero" id="inicio" aria-labelledby="hero-title">
   <div class="hero-content">
-    <p class="eyebrow">{siteContent.fullName}</p>
+    <p class="eyebrow">{siteContent.hero.eyebrow}</p>
     <h1 id="hero-title">{siteContent.publicName}</h1>
     <p class="hero-position">{siteContent.position}</p>
     <p class="hero-support">{siteContent.hero.support}</p>
@@ -13,18 +12,20 @@ import { siteContent } from "../content/site";
       <a class="button button-primary" href="#trajetoria">
         {siteContent.ctas.primary}
       </a>
-      <a class="button button-secondary" href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
-        {siteContent.ctas.instagram}
-      </a>
-      <a class="button button-link" href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
-        {siteContent.ctas.facebook}
+      <a class="button button-secondary" href="#atuacao">
+        {siteContent.ctas.secondary}
       </a>
     </div>
   </div>
   <div class="hero-media">
-    <PlaceholderImage
-      label={siteContent.placeholders.main}
-      note="Fotografia principal depende de autorização e crédito."
+    <img
+      class="hero-image"
+      src={siteContent.hero.image.src}
+      alt={siteContent.hero.image.alt}
+      width={siteContent.hero.image.width}
+      height={siteContent.hero.image.height}
+      loading="eager"
+      decoding="async"
     />
   </div>
 </section>

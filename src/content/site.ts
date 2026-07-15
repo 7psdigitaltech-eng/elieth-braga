@@ -25,6 +25,7 @@ export const siteContent = {
   ],
   ctas: {
     primary: "Conheça a trajetória",
+    secondary: "Veja as áreas de atuação",
     instagram: "Acompanhe no Instagram",
     facebook: "Acompanhe no Facebook"
   },
@@ -34,6 +35,13 @@ export const siteContent = {
     institutional: "[IMAGEM INSTITUCIONAL COM DIREITO DE USO A CONFIRMAR]"
   },
   hero: {
+    eyebrow: "Gestão pública • Educação • Cidadania",
+    image: {
+      src: "/images/elieth-braga-principal.jpg",
+      alt: "Elieth Braga em retrato institucional",
+      width: 566,
+      height: 734
+    },
     support:
       "Gestora pública paraense, com experiências na administração municipal e estadual em áreas essenciais para a vida das pessoas."
   },
