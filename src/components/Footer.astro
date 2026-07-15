@@ -3,13 +3,16 @@ import { siteContent } from "../content/site";
 ---
 
 <footer class="site-footer">
-  <p>{siteContent.publicName}</p>
+  <div>
+    <p>{siteContent.publicName}</p>
+    <span>{siteContent.footerNote}</span>
+  </div>
   <nav aria-label="Elieth Braga">
     <a href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
-      {siteContent.instagramCta}
+      Instagram
     </a>
     <a href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
-      {siteContent.facebookCta}
+      Facebook
     </a>
   </nav>
 </footer>

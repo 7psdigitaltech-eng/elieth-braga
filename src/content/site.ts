@@ -6,6 +6,8 @@ export const siteContent = {
   primaryCta: "Conheça a trajetória",
   instagramCta: "Acompanhe no Instagram",
   facebookCta: "Acompanhe no Facebook",
+  skipLinkLabel: "Ir para o conteúdo principal",
+  footerNote: "Página pessoal e institucional.",
   instagramUrl: "https://www.instagram.com/eliethdefatima/",
   facebookUrl: "https://www.facebook.com/Eliethdefatimabraga",
   mainImagePlaceholder: "[FOTO PRINCIPAL AUTORIZADA]"
