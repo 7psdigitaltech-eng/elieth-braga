@@ -3,16 +3,18 @@ import { siteContent } from "../content/site";
 ---
 
 <header class="site-header">
-  <a class="brand" href="/" aria-label={siteContent.publicName}>
-    {siteContent.publicName}
-  </a>
-  <nav class="header-nav" aria-label="Elieth Braga">
-    <a href="#conteudo">Início</a>
-    <a href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
-      Instagram
+  <div class="header-inner">
+    <a class="brand" href="#inicio" aria-label={`${siteContent.publicName} - início`}>
+      {siteContent.publicName}
     </a>
-    <a href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
-      Facebook
-    </a>
-  </nav>
+    <nav class="header-nav" aria-label="Navegação principal">
+      {siteContent.navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+      <a href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
+        Instagram
+      </a>
+      <a href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
+        Facebook
+      </a>
+    </nav>
+  </div>
 </header>

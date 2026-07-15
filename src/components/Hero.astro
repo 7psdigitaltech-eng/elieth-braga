@@ -3,24 +3,28 @@ import PlaceholderImage from "./PlaceholderImage.astro";
 import { siteContent } from "../content/site";
 ---
 
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero" id="inicio" aria-labelledby="hero-title">
   <div class="hero-content">
     <p class="eyebrow">{siteContent.fullName}</p>
     <h1 id="hero-title">{siteContent.publicName}</h1>
     <p class="hero-position">{siteContent.position}</p>
+    <p class="hero-support">{siteContent.hero.support}</p>
     <div class="hero-actions" aria-label="Elieth Braga">
-      <a class="button button-primary" href="#conteudo">
-        {siteContent.primaryCta}
+      <a class="button button-primary" href="#trajetoria">
+        {siteContent.ctas.primary}
       </a>
       <a class="button button-secondary" href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
-        {siteContent.instagramCta}
+        {siteContent.ctas.instagram}
       </a>
       <a class="button button-link" href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
-        {siteContent.facebookCta}
+        {siteContent.ctas.facebook}
       </a>
     </div>
   </div>
   <div class="hero-media">
-    <PlaceholderImage label={siteContent.mainImagePlaceholder} />
+    <PlaceholderImage
+      label={siteContent.placeholders.main}
+      note="Fotografia principal depende de autorização e crédito."
+    />
   </div>
 </section>

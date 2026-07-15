@@ -1,0 +1,26 @@
+---
+import PlaceholderImage from "./PlaceholderImage.astro";
+import SectionHeading from "./SectionHeading.astro";
+import { siteContent } from "../content/site";
+---
+
+<section class="page-section about-section" id="sobre" aria-labelledby="sobre-title">
+  <div class="section-grid section-grid-balanced">
+    <div class="section-copy">
+      <SectionHeading
+        eyebrow={siteContent.about.eyebrow}
+        title={siteContent.about.title}
+        id="sobre-title"
+      />
+      <div class="prose">
+        {siteContent.about.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+      <a class="text-action" href="#trajetoria">Veja a trajetória</a>
+    </div>
+    <PlaceholderImage
+      label={siteContent.placeholders.historical}
+      note="Placeholder textual até confirmação de origem e direito de uso."
+      compact
+    />
+  </div>
+</section>

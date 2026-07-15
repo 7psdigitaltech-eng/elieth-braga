@@ -1,0 +1,22 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+import { siteContent } from "../content/site";
+---
+
+<section class="page-section timeline-section" id="trajetoria" aria-labelledby="trajetoria-title">
+  <SectionHeading
+    eyebrow={siteContent.timeline.eyebrow}
+    title={siteContent.timeline.title}
+    id="trajetoria-title"
+    description={siteContent.timeline.description}
+  />
+  <ol class="timeline-list" aria-label="Marcos da trajetória pública">
+    {siteContent.timeline.items.map((item) => (
+      <li class="timeline-item">
+        <span class="timeline-period">{item.period}</span>
+        <h3>{item.title}</h3>
+        <p>{item.text}</p>
+      </li>
+    ))}
+  </ol>
+</section>

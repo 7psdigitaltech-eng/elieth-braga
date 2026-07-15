@@ -1,0 +1,21 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+import { siteContent } from "../content/site";
+---
+
+<section class="page-section gallery-section" id="galeria" aria-labelledby="galeria-title">
+  <SectionHeading
+    eyebrow={siteContent.gallery.eyebrow}
+    title={siteContent.gallery.title}
+    id="galeria-title"
+    description={siteContent.gallery.description}
+  />
+  <div class="gallery-placeholder-grid" aria-label="Placeholders de imagens futuras">
+    {siteContent.gallery.items.map((item) => (
+      <div class="gallery-placeholder-item">
+        <span>{item}</span>
+      </div>
+    ))}
+  </div>
+  <p class="section-note">{siteContent.editorialNote}</p>
+</section>
