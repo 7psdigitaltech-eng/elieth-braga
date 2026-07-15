@@ -9,12 +9,6 @@ import { siteContent } from "../content/site";
     </a>
     <nav class="header-nav" aria-label="Navegação principal">
       {siteContent.navigation.map((item) => <a href={item.href}>{item.label}</a>)}
-      <a href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
-        Instagram
-      </a>
-      <a href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">
-        Facebook
-      </a>
     </nav>
   </div>
 </header>
