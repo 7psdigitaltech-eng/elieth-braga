@@ -1,11 +1,14 @@
 ---
 interface Props {
   label: string;
+  note?: string;
+  compact?: boolean;
 }
 
-const { label } = Astro.props;
+const { label, note, compact = false } = Astro.props;
 ---
 
-<div class="placeholder-image" role="img" aria-label={label}>
+<div class:list={["placeholder-image", { "placeholder-image-compact": compact }]} role="img" aria-label={label}>
   <span>{label}</span>
+  {note && <small>{note}</small>}
 </div>

@@ -8,8 +8,8 @@ interface Props {
 }
 
 const {
-  title = siteContent.publicName,
-  description = siteContent.position
+  title = siteContent.pageTitle,
+  description = siteContent.pageDescription
 } = Astro.props;
 ---
 
@@ -23,6 +23,8 @@ const {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">{siteContent.skipLinkLabel}</a>

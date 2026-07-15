@@ -1,14 +1,27 @@
 ---
+import AboutSection from "../components/AboutSection.astro";
+import AreasSection from "../components/AreasSection.astro";
 import Footer from "../components/Footer.astro";
+import GalleryPlaceholder from "../components/GalleryPlaceholder.astro";
 import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
+import HighlightsSection from "../components/HighlightsSection.astro";
+import SocialSection from "../components/SocialSection.astro";
+import TimelineSection from "../components/TimelineSection.astro";
+import { siteContent } from "../content/site";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout>
+<BaseLayout title={siteContent.pageTitle} description={siteContent.pageDescription}>
   <Header />
   <main class="site-main" id="conteudo" tabindex="-1">
     <Hero />
+    <AboutSection />
+    <TimelineSection />
+    <AreasSection />
+    <HighlightsSection />
+    <SocialSection />
+    <GalleryPlaceholder />
   </main>
   <Footer />
 </BaseLayout>

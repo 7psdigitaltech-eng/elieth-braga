@@ -1,0 +1,21 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+import { siteContent } from "../content/site";
+---
+
+<section class="page-section areas-section" id="atuacao" aria-labelledby="atuacao-title">
+  <SectionHeading
+    eyebrow={siteContent.areas.eyebrow}
+    title={siteContent.areas.title}
+    id="atuacao-title"
+    description={siteContent.areas.description}
+  />
+  <div class="area-grid">
+    {siteContent.areas.items.map((item) => (
+      <article class="area-item">
+        <h3>{item.title}</h3>
+        <p>{item.text}</p>
+      </article>
+    ))}
+  </div>
+</section>

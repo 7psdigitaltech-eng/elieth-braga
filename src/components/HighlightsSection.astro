@@ -1,0 +1,28 @@
+---
+import PlaceholderImage from "./PlaceholderImage.astro";
+import SectionHeading from "./SectionHeading.astro";
+import { siteContent } from "../content/site";
+---
+
+<section class="page-section highlights-section" id="destaques" aria-labelledby="destaques-title">
+  <SectionHeading
+    eyebrow={siteContent.highlights.eyebrow}
+    title={siteContent.highlights.title}
+    id="destaques-title"
+    description={siteContent.highlights.description}
+  />
+  <div class="highlight-grid">
+    {siteContent.highlights.items.map((item) => (
+      <article class="highlight-card">
+        <span>{item.label}</span>
+        <h3>{item.title}</h3>
+        <p>{item.text}</p>
+      </article>
+    ))}
+    <PlaceholderImage
+      label={siteContent.placeholders.institutional}
+      note="Imagem institucional depende de autorização futura."
+      compact
+    />
+  </div>
+</section>
