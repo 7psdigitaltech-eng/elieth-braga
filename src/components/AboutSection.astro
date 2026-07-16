@@ -1,5 +1,4 @@
 ---
-import PlaceholderImage from "./PlaceholderImage.astro";
 import SectionHeading from "./SectionHeading.astro";
 import { siteContent } from "../content/site";
 ---
@@ -17,10 +16,14 @@ import { siteContent } from "../content/site";
       </div>
       <a class="text-action" href="#trajetoria">Veja a trajetória</a>
     </div>
-    <PlaceholderImage
-      label={siteContent.placeholders.historical}
-      note="Placeholder textual até confirmação de origem e direito de uso."
-      compact
+    <img
+      class="about-image"
+      src={siteContent.about.image.src}
+      alt={siteContent.about.image.alt}
+      width={siteContent.about.image.width}
+      height={siteContent.about.image.height}
+      loading="lazy"
+      decoding="async"
     />
   </div>
 </section>

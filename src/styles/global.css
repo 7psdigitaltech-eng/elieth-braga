@@ -327,6 +327,15 @@ h1 {
   box-shadow: var(--shadow-soft);
 }
 
+.about-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid color-mix(in srgb, var(--color-blue-deep) 16%, transparent);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
 .placeholder-image-compact {
   min-height: clamp(240px, 30vw, 360px);
 }
