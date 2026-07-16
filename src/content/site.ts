@@ -49,10 +49,16 @@ export const siteContent = {
     eyebrow: "Sobre Elieth",
     title: "Uma trajetória construída no serviço público paraense",
     paragraphs: [
-      "Elieth de Fátima da Silva Braga, conhecida publicamente como Elieth Braga, construiu sua trajetória no serviço público paraense, com experiências em áreas essenciais da administração municipal e estadual.",
-      "Em 2016, foi eleita prefeita de Mocajuba e assumiu o cargo em 2017, tendo Cosme Macedo como vice-prefeito. Essa passagem pelo Executivo municipal integra uma trajetória posteriormente ampliada por funções estratégicas no Governo do Pará.",
-      "Na administração estadual, exerceu a titularidade da Secretaria de Estado de Educação, passou pela Secretaria de Estado de Planejamento e Administração e atuou como secretária de Estado de Articulação da Cidadania."
-    ]
+      "Elieth Braga nasceu em Mocajuba, no Pará, e construiu sua trajetória a partir do serviço público, da educação e da gestão. Ao longo de sua vida pública, atuou em diferentes responsabilidades municipais e estaduais, sempre ligada a áreas essenciais para o desenvolvimento das pessoas e das comunidades.",
+      "No Executivo municipal, foi eleita prefeita de Mocajuba, e essa experiência marcou sua atuação direta com os desafios da gestão pública local.",
+      "Na administração estadual, sua trajetória passou por áreas estratégicas como educação, planejamento, administração e articulação da cidadania, com atuação em políticas públicas voltadas à organização do Estado e ao atendimento da população paraense."
+    ],
+    image: {
+      src: "/images/elieth-braga-historica.jpg",
+      alt: "Elieth Braga em registro histórico institucional",
+      width: 1280,
+      height: 1707
+    }
   },
   timeline: {
     eyebrow: "Trajetória",
