@@ -62,34 +62,39 @@ export const siteContent = {
   },
   timeline: {
     eyebrow: "Trajetória",
-    title: "Marcos públicos em ordem narrativa",
+    title: "Trajetória no serviço público",
     description:
-      "A linha do tempo reúne apenas marcos publicáveis e formulações proporcionais às informações documentadas.",
+      "Da carreira técnica à gestão municipal e estadual, a trajetória de Elieth Braga reúne passagens pela educação, pela administração pública e pela articulação de políticas voltadas à população paraense.",
     items: [
       {
-        period: "Serviço público paraense",
-        title: "Experiência pública no Pará",
-        text: "Trajetória ligada à gestão pública, à educação, ao planejamento e à cidadania no Estado do Pará."
+        period: "Carreira pública",
+        title: "Auditora Fiscal de Receitas Estaduais",
+        text: "Servidora pública estadual de carreira, Elieth Braga construiu uma base técnica na administração pública como Auditora Fiscal de Receitas Estaduais."
       },
       {
-        period: "2016 / 2017",
+        period: "Educação municipal",
+        title: "Secretaria de Educação de Ananindeua",
+        text: "Na gestão municipal de Ananindeua, atuou na área da educação, ampliando sua experiência com políticas públicas, rede de ensino e administração local."
+      },
+      {
+        period: "Gestão municipal",
         title: "Prefeitura de Mocajuba",
-        text: "Eleita prefeita de Mocajuba em 2016, assumiu o cargo em 2017, tendo Cosme Macedo como vice-prefeito."
+        text: "Natural de Mocajuba, foi eleita prefeita do município e viveu no Executivo municipal uma experiência direta com os desafios da gestão pública local."
       },
       {
-        period: "Marcos de 2021 e 2023",
+        period: "Educação estadual",
         title: "Secretaria de Estado de Educação",
-        text: "Exerceu a titularidade da Secretaria de Estado de Educação em marcos públicos confirmados."
+        text: "Na administração estadual, esteve à frente da Secretaria de Estado de Educação, uma das áreas mais estratégicas para o desenvolvimento social do Pará."
       },
       {
-        period: "Após ciclo na Educação",
-        title: "Planejamento e Administração",
-        text: "Passou pela Secretaria de Estado de Planejamento e Administração, com formulação mantida em nível institucional."
+        period: "Planejamento e gestão",
+        title: "Secretaria de Estado de Planejamento e Administração",
+        text: "Também passou pela área de planejamento e administração, contribuindo com temas ligados à organização do Estado, gestão pública e estrutura administrativa."
       },
       {
-        period: "Setembro de 2025",
-        title: "Articulação da Cidadania",
-        text: "Exerceu a titularidade da Secretaria de Estado de Articulação da Cidadania em marco confirmado."
+        period: "Cidadania",
+        title: "Secretaria de Estado de Articulação da Cidadania",
+        text: "Na área de articulação da cidadania, sua atuação se voltou à integração de políticas públicas e iniciativas de atendimento à população paraense."
       }
     ]
   },
