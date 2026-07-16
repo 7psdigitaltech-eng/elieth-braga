@@ -1,5 +1,4 @@
 ---
-import PlaceholderImage from "./PlaceholderImage.astro";
 import SectionHeading from "./SectionHeading.astro";
 import { siteContent } from "../content/site";
 ---
@@ -19,10 +18,6 @@ import { siteContent } from "../content/site";
         <p>{item.text}</p>
       </article>
     ))}
-    <PlaceholderImage
-      label={siteContent.placeholders.institutional}
-      note="Imagem institucional depende de autorização futura."
-      compact
-    />
   </div>
+  <p class="highlight-summary">{siteContent.highlights.summary}</p>
 </section>
