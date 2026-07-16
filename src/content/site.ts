@@ -100,45 +100,51 @@ export const siteContent = {
   },
   areas: {
     eyebrow: "Atuação",
-    title: "Áreas que organizam sua experiência",
+    title: "Pilares que atravessam sua trajetória",
     description:
-      "Os eixos abaixo apresentam temas de atuação, sem transformar resultados institucionais em autoria individual exclusiva.",
+      "A experiência pública de Elieth Braga se conecta por temas que aparecem em diferentes momentos de sua atuação: educação, gestão, planejamento e cidadania.",
     items: [
       {
-        title: "Educação pública",
-        text: "Experiência em gestão educacional e em estruturas públicas voltadas à organização da educação no Pará."
+        number: "01",
+        title: "Educação como base",
+        text: "Atuação ligada à organização de políticas públicas educacionais e à valorização da educação como caminho de desenvolvimento social."
       },
       {
-        title: "Gestão municipal",
-        text: "Passagem pelo Executivo municipal de Mocajuba como marco relevante da trajetória pública."
+        number: "02",
+        title: "Gestão com responsabilidade pública",
+        text: "Experiência em funções que exigem planejamento, coordenação administrativa e compromisso com a entrega de serviços à população."
       },
       {
-        title: "Gestão e planejamento",
-        text: "Atuação em áreas de coordenação administrativa, planejamento público e organização institucional."
+        number: "03",
+        title: "Planejamento e organização do Estado",
+        text: "Passagem por áreas voltadas à estruturação da gestão pública, com visão sobre processos, pessoas e funcionamento institucional."
       },
       {
-        title: "Cidadania e articulação",
-        text: "Experiência em políticas públicas de cidadania e articulação institucional no âmbito estadual."
+        number: "04",
+        title: "Cidadania e presença no território",
+        text: "Atuação conectada à aproximação entre políticas públicas e as necessidades concretas da população paraense."
       }
     ]
   },
   highlights: {
-    eyebrow: "Destaques",
-    title: "Marcos municipal e estadual",
+    eyebrow: "Experiência",
+    title: "Do município ao Estado: uma trajetória em duas escalas",
     description:
-      "Destaques apresentados com linguagem prudente, sem números não confirmados e sem atribuição exclusiva de resultados coletivos.",
+      "A experiência de Elieth Braga reúne a vivência direta da gestão municipal e a atuação em áreas estratégicas da administração estadual.",
     items: [
       {
-        label: "Marco municipal",
-        title: "Mocajuba",
-        text: "Eleita prefeita de Mocajuba em 2016, Elieth assumiu o Executivo municipal em 2017, tendo Cosme Macedo como vice-prefeito."
+        label: "Município",
+        title: "Gestão próxima da população",
+        text: "Na experiência municipal, a atuação de Elieth Braga esteve ligada aos desafios cotidianos da cidade, ao contato direto com as comunidades e à gestão de serviços públicos locais."
       },
       {
-        label: "Marco estadual",
-        title: "SEDUC",
-        text: "No encerramento de seu ciclo à frente da Secretaria de Estado de Educação, Elieth participou da entrega da sede ampliada e modernizada da SEDUC, estrutura destinada a melhorar as condições de trabalho e atendimento da administração educacional do Pará."
+        label: "Estado",
+        title: "Visão institucional ampliada",
+        text: "Na administração estadual, sua trajetória passou por áreas estratégicas como educação, planejamento e cidadania, ampliando sua atuação para políticas públicas de alcance estadual."
       }
-    ]
+    ],
+    summary:
+      "Uma trajetória que conecta território, gestão pública e compromisso com o desenvolvimento das pessoas."
   },
   socialSection: {
     eyebrow: "Redes oficiais",

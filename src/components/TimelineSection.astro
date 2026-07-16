@@ -1,6 +1,8 @@
 ---
 import SectionHeading from "./SectionHeading.astro";
 import { siteContent } from "../content/site";
+
+const timelineIconNames = ["badge", "book", "building", "school", "chart", "people"] as const;
 ---
 
 <section class="page-section timeline-section" id="trajetoria" aria-labelledby="trajetoria-title">
@@ -11,11 +13,64 @@ import { siteContent } from "../content/site";
     description={siteContent.timeline.description}
   />
   <ol class="timeline-list" aria-label="Marcos da trajetória pública">
-    {siteContent.timeline.items.map((item) => (
+    {siteContent.timeline.items.map((item, index) => (
       <li class="timeline-item">
-        <span class="timeline-period">{item.period}</span>
-        <h3>{item.title}</h3>
-        <p>{item.text}</p>
+        <span class="timeline-marker" aria-hidden="true">
+          <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+            {timelineIconNames[index] === "badge" && (
+              <>
+                <rect x="6" y="5" width="12" height="15" rx="2"></rect>
+                <path d="M9 5V3h6v2"></path>
+                <circle cx="12" cy="10" r="2"></circle>
+                <path d="M9 16h6"></path>
+              </>
+            )}
+            {timelineIconNames[index] === "book" && (
+              <>
+                <path d="M5 5.5h5.5A2.5 2.5 0 0 1 13 8v11a2.5 2.5 0 0 0-2.5-2.5H5z"></path>
+                <path d="M19 5.5h-5.5A2.5 2.5 0 0 0 11 8v11a2.5 2.5 0 0 1 2.5-2.5H19z"></path>
+              </>
+            )}
+            {timelineIconNames[index] === "building" && (
+              <>
+                <path d="M5 20h14"></path>
+                <path d="M7 20V8l5-3 5 3v12"></path>
+                <path d="M10 11h.01"></path>
+                <path d="M14 11h.01"></path>
+                <path d="M10 15h.01"></path>
+                <path d="M14 15h.01"></path>
+              </>
+            )}
+            {timelineIconNames[index] === "school" && (
+              <>
+                <path d="M4 9l8-4 8 4-8 4z"></path>
+                <path d="M7 11v4c1.4 1.4 3.1 2 5 2s3.6-.6 5-2v-4"></path>
+                <path d="M20 9v5"></path>
+              </>
+            )}
+            {timelineIconNames[index] === "chart" && (
+              <>
+                <path d="M5 19V5"></path>
+                <path d="M5 19h14"></path>
+                <path d="M8 15l3-3 3 2 4-6"></path>
+                <path d="M17 8h1v1"></path>
+              </>
+            )}
+            {timelineIconNames[index] === "people" && (
+              <>
+                <circle cx="9" cy="9" r="2.5"></circle>
+                <circle cx="16" cy="10" r="2"></circle>
+                <path d="M4.5 18a4.5 4.5 0 0 1 9 0"></path>
+                <path d="M13.5 17.5a3.5 3.5 0 0 1 6 0"></path>
+              </>
+            )}
+          </svg>
+        </span>
+        <div class="timeline-card">
+          <span class="timeline-period">{item.period}</span>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </div>
       </li>
     ))}
   </ol>
