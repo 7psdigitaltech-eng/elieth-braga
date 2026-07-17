@@ -6,15 +6,17 @@ const areaIconNames = ["book", "people", "building", "pin"] as const;
 ---
 
 <section class="page-section areas-section" id="atuacao" aria-labelledby="atuacao-title">
-  <SectionHeading
-    eyebrow={siteContent.areas.eyebrow}
-    title={siteContent.areas.title}
-    id="atuacao-title"
-    description={siteContent.areas.description}
-  />
+  <div class="reveal">
+    <SectionHeading
+      eyebrow={siteContent.areas.eyebrow}
+      title={siteContent.areas.title}
+      id="atuacao-title"
+      description={siteContent.areas.description}
+    />
+  </div>
   <div class="area-grid">
     {siteContent.areas.items.map((item, index) => (
-      <article class="area-item">
+      <article class="area-item reveal" style={`--reveal-delay: ${index * 55}ms`}>
         <div class="area-item-top">
           <span class="area-number">{item.number}</span>
           <span class="area-icon" aria-hidden="true">

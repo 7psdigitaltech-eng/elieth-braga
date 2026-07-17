@@ -6,15 +6,17 @@ const timelineIconNames = ["badge", "book", "building", "school", "chart", "peop
 ---
 
 <section class="page-section timeline-section" id="trajetoria" aria-labelledby="trajetoria-title">
-  <SectionHeading
-    eyebrow={siteContent.timeline.eyebrow}
-    title={siteContent.timeline.title}
-    id="trajetoria-title"
-    description={siteContent.timeline.description}
-  />
+  <div class="reveal">
+    <SectionHeading
+      eyebrow={siteContent.timeline.eyebrow}
+      title={siteContent.timeline.title}
+      id="trajetoria-title"
+      description={siteContent.timeline.description}
+    />
+  </div>
   <ol class="timeline-list" aria-label="Marcos da trajetória pública">
     {siteContent.timeline.items.map((item, index) => (
-      <li class="timeline-item">
+      <li class="timeline-item reveal" style={`--reveal-delay: ${index * 55}ms`}>
         <span class="timeline-marker" aria-hidden="true">
           <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
             {timelineIconNames[index] === "badge" && (

@@ -6,18 +6,20 @@ import { siteContent } from "../content/site";
 <section class="page-section about-section" id="sobre" aria-labelledby="sobre-title">
   <div class="section-grid section-grid-balanced">
     <div class="section-copy">
-      <SectionHeading
-        eyebrow={siteContent.about.eyebrow}
-        title={siteContent.about.title}
-        id="sobre-title"
-      />
+      <div class="reveal">
+        <SectionHeading
+          eyebrow={siteContent.about.eyebrow}
+          title={siteContent.about.title}
+          id="sobre-title"
+        />
+      </div>
       <div class="prose">
         {siteContent.about.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
       </div>
       <a class="text-action" href="#trajetoria">Veja a trajetória</a>
     </div>
     <img
-      class="about-image"
+      class="about-image reveal"
       src={siteContent.about.image.src}
       alt={siteContent.about.image.alt}
       width={siteContent.about.image.width}
