@@ -60,6 +60,14 @@ export const siteContent = {
       height: 1707
     }
   },
+  paraIdentity: {
+    eyebrow: "Identidade paraense",
+    title: "Pará como identidade",
+    lead: "Amante da cultura paraense, Elieth Braga carrega em sua trajetória uma ligação profunda com o Estado, suas cores, sua história e sua gente.",
+    text: "Da experiência municipal à atuação estadual, sua caminhada se conecta à educação, à cidadania, ao território e ao desenvolvimento do Pará.",
+    highlight:
+      "Uma trajetória paraense, construída com presença pública, compromisso e respeito pela população."
+  },
   timeline: {
     eyebrow: "Trajetória",
     title: "Trajetória no serviço público",
