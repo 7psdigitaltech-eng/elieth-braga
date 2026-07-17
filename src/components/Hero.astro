@@ -4,11 +4,11 @@ import { siteContent } from "../content/site";
 
 <section class="hero" id="inicio" aria-labelledby="hero-title">
   <div class="hero-content">
-    <p class="eyebrow">{siteContent.hero.eyebrow}</p>
-    <h1 id="hero-title">{siteContent.publicName}</h1>
-    <p class="hero-position">{siteContent.position}</p>
-    <p class="hero-support">{siteContent.hero.support}</p>
-    <div class="hero-actions" aria-label="Elieth Braga">
+    <p class="eyebrow hero-entrance hero-entrance-1">{siteContent.hero.eyebrow}</p>
+    <h1 class="hero-entrance hero-entrance-2" id="hero-title">{siteContent.publicName}</h1>
+    <p class="hero-position hero-entrance hero-entrance-3">{siteContent.position}</p>
+    <p class="hero-support hero-entrance hero-entrance-4">{siteContent.hero.support}</p>
+    <div class="hero-actions hero-entrance hero-entrance-5" aria-label="Elieth Braga">
       <a class="button button-primary" href="#trajetoria">
         {siteContent.ctas.primary}
       </a>
@@ -17,7 +17,7 @@ import { siteContent } from "../content/site";
       </a>
     </div>
   </div>
-  <div class="hero-media">
+  <div class="hero-media hero-entrance hero-entrance-media">
     <img
       class="hero-image"
       src={siteContent.hero.image.src}

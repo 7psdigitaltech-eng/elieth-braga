@@ -4,15 +4,17 @@ import { siteContent } from "../content/site";
 ---
 
 <section class="page-section gallery-section" id="galeria" aria-labelledby="galeria-title">
-  <SectionHeading
-    eyebrow={siteContent.gallery.eyebrow}
-    title={siteContent.gallery.title}
-    id="galeria-title"
-    description={siteContent.gallery.description}
-  />
+  <div class="reveal">
+    <SectionHeading
+      eyebrow={siteContent.gallery.eyebrow}
+      title={siteContent.gallery.title}
+      id="galeria-title"
+      description={siteContent.gallery.description}
+    />
+  </div>
   <div class="gallery-grid" aria-label="Registros autorizados da trajetória">
-    {siteContent.gallery.items.map((item) => (
-      <figure class="gallery-card">
+    {siteContent.gallery.items.map((item, index) => (
+      <figure class="gallery-card reveal" style={`--reveal-delay: ${index * 55}ms`}>
         <img
           src={item.image.src}
           alt={item.image.alt}
@@ -28,5 +30,5 @@ import { siteContent } from "../content/site";
       </figure>
     ))}
   </div>
-  <p class="section-note">{siteContent.editorialNote}</p>
+  <p class="section-note reveal">{siteContent.editorialNote}</p>
 </section>

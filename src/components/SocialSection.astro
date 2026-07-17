@@ -4,21 +4,23 @@ import { siteContent } from "../content/site";
 ---
 
 <section class="page-section social-section" id="conteudos" aria-labelledby="conteudos-title">
-  <SectionHeading
-    eyebrow={siteContent.socialSection.eyebrow}
-    title={siteContent.socialSection.title}
-    id="conteudos-title"
-    description={siteContent.socialSection.description}
-  />
+  <div class="reveal">
+    <SectionHeading
+      eyebrow={siteContent.socialSection.eyebrow}
+      title={siteContent.socialSection.title}
+      id="conteudos-title"
+      description={siteContent.socialSection.description}
+    />
+  </div>
   <div class="social-grid">
-    <article class="social-card">
+    <article class="social-card reveal">
       <span>Instagram</span>
       <h3>{siteContent.social.instagramHandle}</h3>
       <a class="button button-secondary" href={siteContent.instagramUrl} rel="me noopener noreferrer" target="_blank">
         {siteContent.ctas.instagram}
       </a>
     </article>
-    <article class="social-card">
+    <article class="social-card reveal" style="--reveal-delay: 55ms">
       <span>Facebook</span>
       <h3>{siteContent.social.facebookLabel}</h3>
       <a class="button button-secondary" href={siteContent.facebookUrl} rel="me noopener noreferrer" target="_blank">

@@ -25,9 +25,15 @@ const {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta name="twitter:card" content="summary" />
+    <script is:inline>
+      document.documentElement.classList.add("js-enabled");
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#conteudo">{siteContent.skipLinkLabel}</a>
     <slot />
+    <script>
+      import "../scripts/reveal";
+    </script>
   </body>
 </html>

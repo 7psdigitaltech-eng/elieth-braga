@@ -4,20 +4,22 @@ import { siteContent } from "../content/site";
 ---
 
 <section class="page-section highlights-section" id="destaques" aria-labelledby="destaques-title">
-  <SectionHeading
-    eyebrow={siteContent.highlights.eyebrow}
-    title={siteContent.highlights.title}
-    id="destaques-title"
-    description={siteContent.highlights.description}
-  />
+  <div class="reveal">
+    <SectionHeading
+      eyebrow={siteContent.highlights.eyebrow}
+      title={siteContent.highlights.title}
+      id="destaques-title"
+      description={siteContent.highlights.description}
+    />
+  </div>
   <div class="highlight-grid">
-    {siteContent.highlights.items.map((item) => (
-      <article class="highlight-card">
+    {siteContent.highlights.items.map((item, index) => (
+      <article class="highlight-card reveal" style={`--reveal-delay: ${index * 55}ms`}>
         <span>{item.label}</span>
         <h3>{item.title}</h3>
         <p>{item.text}</p>
       </article>
     ))}
   </div>
-  <p class="highlight-summary">{siteContent.highlights.summary}</p>
+  <p class="highlight-summary reveal">{siteContent.highlights.summary}</p>
 </section>
