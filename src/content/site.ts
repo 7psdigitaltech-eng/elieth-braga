@@ -9,7 +9,7 @@ export const siteContent = {
   skipLinkLabel: "Ir para o conteúdo principal",
   footerNote: "Página pessoal e institucional.",
   editorialNote:
-    "Este espaço reúne informações biográficas e institucionais publicáveis. Imagens reais dependem de confirmação de origem, autoria e direito de uso.",
+    "Galeria com registros pessoais, públicos e institucionais selecionados para apresentação da trajetória de Elieth Braga.",
   instagramUrl: "https://www.instagram.com/eliethdefatima/",
   facebookUrl: "https://www.facebook.com/Eliethdefatimabraga",
   social: {
@@ -154,13 +154,40 @@ export const siteContent = {
   },
   gallery: {
     eyebrow: "Galeria",
-    title: "Imagens dependem de autorização",
+    title: "Memórias de uma trajetória pública",
     description:
-      "Esta área fica preparada apenas com placeholders textuais até que fotografias, créditos e direitos de uso sejam confirmados.",
+      "Entre registros pessoais, encontros públicos e reconhecimentos, esta galeria reúne momentos que ajudam a contar a caminhada de Elieth Braga no Pará.",
     items: [
-      "[FOTO PRINCIPAL AUTORIZADA]",
-      "[FOTO HISTÓRICA AUTORIZADA]",
-      "[IMAGEM INSTITUCIONAL COM DIREITO DE USO A CONFIRMAR]"
+      {
+        title: "Ao lado de Paulo Gomes",
+        text: "Registro de Elieth Braga com seu esposo, Paulo Gomes, em momento de memória pessoal e trajetória compartilhada.",
+        image: {
+          src: "/images/elieth-braga-galeria-03.1.jpg",
+          alt: "Elieth Braga ao lado de Paulo Gomes",
+          width: 1200,
+          height: 1600
+        }
+      },
+      {
+        title: "Encontro institucional",
+        text: "Registro de Elieth Braga com Hana Ghassan, em momento público de presença institucional no Pará.",
+        image: {
+          src: "/images/elieth-braga-galeria-03.2.jpg",
+          alt: "Elieth Braga em encontro institucional com Hana Ghassan",
+          width: 1200,
+          height: 1600
+        }
+      },
+      {
+        title: "Prêmio Mulher Padrão do Pará",
+        text: "Registro de Elieth Braga no recebimento do Prêmio Mulher Padrão do Pará.",
+        image: {
+          src: "/images/elieth-braga-galeria-03.3.jpg",
+          alt: "Elieth Braga recebendo o Prêmio Mulher Padrão do Pará",
+          width: 1200,
+          height: 1600
+        }
+      }
     ]
   }
 } as const;

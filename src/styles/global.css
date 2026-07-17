@@ -340,8 +340,7 @@ h1 {
   min-height: clamp(240px, 30vw, 360px);
 }
 
-.placeholder-image span,
-.gallery-placeholder-item span {
+.placeholder-image span {
   width: min(80%, 20rem);
   font-size: 0.95rem;
   font-weight: 850;
@@ -703,23 +702,48 @@ h1 {
   font-size: clamp(1.35rem, 3vw, 1.8rem);
 }
 
-.gallery-placeholder-grid {
+.gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--space-md);
+  gap: clamp(var(--space-md), 2vw, var(--space-xl));
   margin-top: var(--space-2xl);
 }
 
-.gallery-placeholder-item {
-  display: grid;
-  min-height: 210px;
-  place-items: center;
-  border: 1px dashed color-mix(in srgb, var(--color-blue-deep) 34%, transparent);
+.gallery-card {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid color-mix(in srgb, var(--color-blue-deep) 12%, transparent);
   border-radius: var(--radius-md);
+  background: var(--color-white);
+  box-shadow: 0 16px 38px rgba(20, 82, 122, 0.1);
+}
+
+.gallery-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery-card figcaption {
   padding: var(--space-lg);
-  background: var(--color-mist-soft);
+}
+
+.gallery-card h3 {
+  margin: 0 0 var(--space-xs);
   color: var(--color-blue-deep);
-  text-align: center;
+  font-family: var(--font-serif);
+  font-size: clamp(1.22rem, 2.2vw, 1.5rem);
+  line-height: 1.18;
+}
+
+.gallery-card p {
+  margin: 0;
+  color: var(--color-gray);
+  font-size: 0.98rem;
+  line-height: 1.58;
 }
 
 .section-note {
@@ -854,7 +878,7 @@ h1 {
   .hero-actions,
   .social-grid,
   .highlight-grid,
-  .gallery-placeholder-grid {
+  .gallery-grid {
     grid-template-columns: 1fr;
   }
 
@@ -940,8 +964,8 @@ h1 {
     padding: var(--space-lg);
   }
 
-  .gallery-placeholder-item {
-    min-height: 170px;
+  .gallery-card figcaption {
+    padding: var(--space-md);
   }
 }
 
