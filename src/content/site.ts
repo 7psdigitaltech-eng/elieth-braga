@@ -148,9 +148,25 @@ export const siteContent = {
   },
   socialSection: {
     eyebrow: "Redes oficiais",
-    title: "Acompanhe pelos canais oficiais",
+    title: "Acompanhe Elieth Braga",
     description:
-      "Os perfis oficiais concentram publicações, registros públicos e atualizações. A página não incorpora feeds externos nem scripts de terceiros."
+      "Os canais oficiais reúnem publicações, registros públicos e atualizações sobre a trajetória e a atuação de Elieth Braga no Pará.",
+    cards: {
+      instagram: {
+        label: "Instagram",
+        title: "@eliethdefatima",
+        text: "Registros em fotos e vídeos, momentos públicos e atualizações do dia a dia.",
+        buttonLabel: "Acessar Instagram",
+        ariaLabel: "Acessar Instagram oficial de Elieth Braga"
+      },
+      facebook: {
+        label: "Facebook",
+        title: "Elieth de Fátima Braga",
+        text: "Publicações oficiais, registros de trajetória e conteúdos compartilhados com a comunidade.",
+        buttonLabel: "Acessar Facebook",
+        ariaLabel: "Acessar Facebook oficial de Elieth Braga"
+      }
+    }
   },
   gallery: {
     eyebrow: "Galeria",
