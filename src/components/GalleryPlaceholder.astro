@@ -10,11 +10,22 @@ import { siteContent } from "../content/site";
     id="galeria-title"
     description={siteContent.gallery.description}
   />
-  <div class="gallery-placeholder-grid" aria-label="Placeholders de imagens futuras">
+  <div class="gallery-grid" aria-label="Registros autorizados da trajetória">
     {siteContent.gallery.items.map((item) => (
-      <div class="gallery-placeholder-item">
-        <span>{item}</span>
-      </div>
+      <figure class="gallery-card">
+        <img
+          src={item.image.src}
+          alt={item.image.alt}
+          width={item.image.width}
+          height={item.image.height}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          <h3>{item.title}</h3>
+          <p>{item.text}</p>
+        </figcaption>
+      </figure>
     ))}
   </div>
   <p class="section-note">{siteContent.editorialNote}</p>
