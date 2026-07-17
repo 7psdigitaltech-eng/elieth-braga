@@ -1,0 +1,22 @@
+---
+import { siteContent } from "../content/site";
+---
+
+<section class="para-identity-section" aria-labelledby="para-identity-title">
+  <div class="para-identity-inner reveal">
+    <div class="para-identity-copy">
+      <p class="section-eyebrow">{siteContent.paraIdentity.eyebrow}</p>
+      <h2 id="para-identity-title">{siteContent.paraIdentity.title}</h2>
+      <p class="para-identity-lead">{siteContent.paraIdentity.lead}</p>
+      <p>{siteContent.paraIdentity.text}</p>
+    </div>
+    <aside class="para-identity-highlight" aria-label="Síntese da identidade paraense">
+      <span class="para-star" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+          <path d="M12 3.5l2.2 5.9 6.3.3-4.9 4 1.6 6.1-5.2-3.4-5.2 3.4 1.6-6.1-4.9-4 6.3-.3z"></path>
+        </svg>
+      </span>
+      <p>{siteContent.paraIdentity.highlight}</p>
+    </aside>
+  </div>
+</section>
